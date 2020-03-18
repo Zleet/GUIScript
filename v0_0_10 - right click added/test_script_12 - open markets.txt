@@ -1,0 +1,51 @@
+<pre_loop>
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+press enter
+pause 1
+press up
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+save_button 1250, 61
+next_market_button 1160, 59
+teletext_name 1167, 377
+notepad_window 321, 471
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+5
+</total_loops>
+

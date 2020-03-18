@@ -1,0 +1,70 @@
+<pre_loop>
+type a
+press delete
+pause 1
+type a
+press delete
+pause 1
+type a
+press delete
+pause 1
+type a
+press delete
+pause 1
+type a
+press delete
+pause 1
+press delete
+pause 1
+press delete
+pause 1
+press delete
+press delete
+press delete
+</pre_loop>
+
+<main_loop>
+type data
+press enter
+data increment
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+save_button 1250, 61
+next_market_button 1160, 59
+teletext_name 1167, 377
+notepad_window 321, 471
+</click_locations>
+
+<data>
+first line of test data
+test data 2
+test data 3
+last line of test data
+</data>
+
+<notes>
+Script to enter teletext names
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+7
+</total_loops>
+

@@ -1,0 +1,110 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# script to scrape office halftime figures
+click shop_dropdown
+pause 0.1
+press down
+pause 0.1
+press enter
+pause 0.1
+click business_day_dropdown
+pause 0.1
+press down
+pause 0.1
+press enter
+pause 0.1
+right_click top_left_sheet
+pause 0.1
+click sheet_menu
+pause 0.1
+click notepad_window
+pause 0.1
+press control
+pause 0.1
+press end
+pause 0.1
+press enter
+pause 0.1
+press enter
+pause 0.1
+press control
+pause 0.1
+type v
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 154, 163
+shop_dropdown 1345, 153
+business_day_dropdown 1701, 151
+top_left_sheet 1126, 302
+sheet_menu 1140, 316
+halftime_figures_window 2760, 200
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to populate a football coupon (not the scorer markets)
+</notes>
+
+<subroutine_1>
+pause 0.5
+click select_all
+pause 0.5
+click set_data
+</subroutine_1>
+
+<subroutine_2>
+pause 0.5
+click select_all
+pause 0.5
+click third_data_item
+pause 0.5
+click set_data
+</subroutine_2>
+
+<subroutine_3>
+click unselect_all
+pause 0.5
+click first_data_item
+pause 0.5
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+click set_data
+</subroutine_3>
+
+<total_loops>
+67
+</total_loops>
+

@@ -1,0 +1,527 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date
+click day
+pause 0.5
+type data     # day
+pause 0.5
+data increment
+press right
+type data     # month
+pause 0.5
+data increment
+press right
+type data   # year
+pause 0.5
+data increment
+press right
+type data     # hour
+pause 0.5
+data increment
+press right
+type data     # minutes
+pause 0.5
+data increment
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type data # home team
+data increment
+pause 1
+press down
+press enter
+click team_search_box
+press home
+press control
+type a
+press delete
+type data # away team
+data increment
+pause 1
+press down
+press enter
+pause 1
+click teams_ok_button
+click next_button
+
+# select live feature as market
+click live_feature
+pause 4
+click next_button
+pause 1
+click next_button
+pause 1
+click finish_button
+
+pause 3
+click create_new_match
+pause 8
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+day 1533, 483
+next_button 1770, 583
+set_bet_ending 1690, 505
+team_search_button 1457, 374
+team_search_box 1429, 301
+teams_ok_button 1665, 576
+trio_market 1410, 271
+finish_button 1840, 580
+create_new_match 1730, 585
+live_feature 1434, 425
+</click_locations>
+
+<data>
+# Match #3
+15      # day
+06      # month
+2018    # year (4 digits)
+16      # hour
+00      # minutes
+Morocco # home team
+Iran    # away team
+
+# Match #4
+15       # day
+06       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Spain    # home team
+Portugal # away team
+
+# Match #5
+16        # day
+06        # month
+2018      # year (4 digits)
+11        # hour
+00        # minutes
+France    # home team
+Australia # away team
+
+# Match #6
+16        # day
+06        # month
+2018      # year (4 digits)
+14        # hour
+00        # minutes
+Argentina # home team
+Iceland   # away team
+
+# Match #7
+16      # day
+06      # month
+2018    # year (4 digits)
+17      # hour
+00      # minutes
+Denmark # home team
+Peru    # away team
+
+# Match #8
+16      # day
+06      # month
+2018    # year (4 digits)
+20      # hour
+00      # minutes
+Croatia # home team
+Nigeria # away team
+
+# Match #9
+17         # day
+06         # month
+2018       # year (4 digits)
+13         # hour
+00         # minutes
+Serbia     # home team
+Costa Rica # away team
+
+# Match #10
+17      # day
+06      # month
+2018    # year (4 digits)
+16      # hour
+00      # minutes
+Germany # home team
+Mexico  # away team
+
+# Match #11
+17          # day
+06          # month
+2018        # year (4 digits)
+19          # hour
+00          # minutes
+Brazil      # home team
+Switzerland # away team
+
+# Match #12
+18          # day
+06          # month
+2018        # year (4 digits)
+13          # hour
+00          # minutes
+Sweden      # home team
+South Korea # away team
+
+# Match #13
+18      # day
+06      # month
+2018    # year (4 digits)
+16      # hour
+00      # minutes
+Belgium # home team
+Panama  # away team
+
+# Match #14
+18      # day
+06      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+England # home team
+Tunisia # away team
+
+# Match #15
+19       # day
+06       # month
+2018     # year (4 digits)
+13       # hour
+00       # minutes
+Colombia # home team
+Japan    # away team
+
+# Match #16
+19      # day
+06      # month
+2018    # year (4 digits)
+16      # hour
+00      # minutes
+Poland  # home team
+Senegal # away team
+
+# Match #17
+19     # day
+06     # month
+2018   # year (4 digits)
+19     # hour
+00     # minutes
+Russia # home team
+Egypt  # away team
+
+# Match #18
+20       # day
+06       # month
+2018     # year (4 digits)
+13       # hour
+00       # minutes
+Portugal # home team
+Morocco  # away team
+
+# Match #19
+20           # day
+06           # month
+2018         # year (4 digits)
+16           # hour
+00           # minutes
+Uruguay      # home team
+Saudi Arabia # away team
+
+# Match #20
+20    # day
+06    # month
+2018  # year (4 digits)
+19    # hour
+00    # minutes
+Spain # home team
+Iran  # away team
+
+# Match #21
+21        # day
+06        # month
+2018      # year (4 digits)
+13        # hour
+00        # minutes
+Denmark   # home team
+Australia # away team
+
+# Match #22
+21     # day
+06     # month
+2018   # year (4 digits)
+16     # hour
+00     # minutes
+France # home team
+Peru   # away team
+
+# Match #23
+21        # day
+06        # month
+2018      # year (4 digits)
+19        # hour
+00        # minutes
+Argentina # home team
+Croatia   # away team
+
+# Match #24
+22         # day
+06         # month
+2018       # year (4 digits)
+13         # hour
+00         # minutes
+Brazil     # home team
+Costa Rica # away team
+
+# Match #25
+22      # day
+06      # month
+2018    # year (4 digits)
+16      # hour
+00      # minutes
+Iceland # home team
+Nigeria # away team
+
+# Match #26
+22          # day
+06          # month
+2018        # year (4 digits)
+19          # hour
+00          # minutes
+Switzerland # home team
+Serbia      # away team
+
+# Match #27
+23      # day
+06      # month
+2018    # year (4 digits)
+13      # hour
+00      # minutes
+Belgium # home team
+Tunisia # away team
+
+# Match #28
+23          # day
+06          # month
+2018        # year (4 digits)
+16          # hour
+00          # minutes
+Mexico      # home team
+South Korea # away team
+
+# Match #29
+23      # day
+06      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Germany # home team
+Sweden  # away team
+
+# Match #30
+24      # day
+06      # month
+2018    # year (4 digits)
+13      # hour
+00      # minutes
+England # home team
+Panama  # away team
+
+# Match #31
+24      # day
+06      # month
+2018    # year (4 digits)
+16      # hour
+00      # minutes
+Senegal # home team
+Japan   # away team
+
+# Match #32
+24       # day
+06       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Poland   # home team
+Colombia # away team
+
+# Match #33
+25           # day
+06           # month
+2018         # year (4 digits)
+15           # hour
+00           # minutes
+Egypt        # home team
+Saudi Arabia # away team
+
+# Match #34
+25      # day
+06      # month
+2018    # year (4 digits)
+15      # hour
+00      # minutes
+Russia  # home team
+Uruguay # away team
+
+# Match #35
+25       # day
+06       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Portugal # home team
+Iran     # away team
+
+# Match #36
+25      # day
+06      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Spain   # home team
+Morocco # away team
+
+# Match #37
+26        # day
+06        # month
+2018      # year (4 digits)
+15        # hour
+00        # minutes
+Peru      # home team
+Australia # away team
+
+# Match #38
+26      # day
+06      # month
+2018    # year (4 digits)
+15      # hour
+00      # minutes
+France  # home team
+Denmark # away team
+
+# Match #39
+26      # day
+06      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Croatia # home team
+Iceland # away team
+
+# Match #40
+26        # day
+06        # month
+2018      # year (4 digits)
+19        # hour
+00        # minutes
+Argentina # home team
+Nigeria   # away team
+
+# Match #41
+27     # day
+06     # month
+2018   # year (4 digits)
+15     # hour
+00     # minutes
+Sweden # home team
+Mexico # away team
+
+# Match #42
+27          # day
+06          # month
+2018        # year (4 digits)
+15          # hour
+00          # minutes
+Germany     # home team
+South Korea # away team
+
+# Match #43
+27     # day
+06     # month
+2018   # year (4 digits)
+19     # hour
+00     # minutes
+Brazil # home team
+Serbia # away team
+
+# Match #44
+27          # day
+06          # month
+2018        # year (4 digits)
+19          # hour
+00          # minutes
+Switzerland # home team
+Costa Rica  # away team
+
+# Match #45
+28     # day
+06     # month
+2018   # year (4 digits)
+15     # hour
+00     # minutes
+Poland # home team
+Japan  # away team
+
+# Match #46
+28       # day
+06       # month
+2018     # year (4 digits)
+15       # hour
+00       # minutes
+Colombia # home team
+Senegal  # away team
+
+# Match #47
+28      # day
+06      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Belgium # home team
+England # away team
+
+# Match #48
+28      # day
+06      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Tunisia # home team
+Panama  # away team
+</data>
+
+<notes>
+Script to build a new football match (trio)
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+18
+</total_loops>
+

@@ -1,0 +1,45 @@
+<pre_loop>
+
+</pre_loop>
+
+<main_loop>
+type hello
+press enter
+press save_button
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+save_button 1408, 285
+enter_participant 1365, 284
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+This is test script #1
+18/3/17 at 2214
+Michael McLarnon
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+3
+</total_loops>
+

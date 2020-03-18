@@ -1,0 +1,148 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date
+click day
+pause 0.5
+type data     # day
+pause 0.5
+data increment
+press right
+type data     # month
+pause 0.5
+data increment
+press right
+type data   # year
+pause 0.5
+data increment
+press right
+type data     # hour
+pause 0.5
+data increment
+press right
+type data     # minutes
+pause 0.5
+data increment
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type data # home team
+data increment
+pause 1
+press down
+press enter
+click team_search_box
+press home
+press control
+type a
+press delete
+type data # away team
+data increment
+pause 1
+press down
+press enter
+pause 1
+click teams_ok_button
+click next_button
+
+# select soccer saturday
+click soccer_saturday
+pause 1
+click next_button
+pause 1
+click next_button
+pause 1
+click finish_button
+
+pause 3
+click create_new_match
+pause 4
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 332, 506
+day 1533, 483
+next_button 1770, 583
+set_bet_ending 1690, 505
+team_search_button 1457, 374
+team_search_box 1429, 301
+teams_ok_button 1665, 576
+soccer_saturday 1424, 264
+finish_button 1840, 580
+create_new_match 1730, 585
+</click_locations>
+
+<data>
+# Match #56
+05            # day
+08            # month
+2017          # year (4 digits)
+19            # hour
+15            # minutes
+Cobh Ramblers # home team
+Longford      # away team
+
+# Match #57
+06      # day
+08      # month
+2017    # year (4 digits)
+14      # hour
+00      # minutes
+Chelsea # home team
+Arsenal # away team
+
+# Match #58
+06     # day
+08     # month
+2017   # year (4 digits)
+16     # hour
+30     # minutes
+Bolton # home team
+Leeds  # away team
+
+# Match #59
+06         # day
+08         # month
+2017       # year (4 digits)
+13         # hour
+30         # minutes
+Motherwell # home team
+Rangers    # away team
+</data>
+
+<notes>
+Script to build football matches for Soccer Saturday
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+4
+</total_loops>
+

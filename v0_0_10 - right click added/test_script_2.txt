@@ -1,0 +1,43 @@
+<pre_loop>
+
+</pre_loop>
+
+<main_loop>
+click top_left_cell
+press right
+press right
+press right
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+top_left_cell 1065, 757
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Test script written on Monday 17th July 2017
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+3
+</total_loops>
+

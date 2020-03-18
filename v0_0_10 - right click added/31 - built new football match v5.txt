@@ -1,0 +1,1129 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date
+click day
+pause 0.1
+type data     # day
+pause 0.1
+data increment
+press right
+type data     # month
+pause 0.1
+data increment
+press right
+type data   # year
+pause 0.1
+data increment
+press right
+type data     # hour
+pause 0.1
+data increment
+press right
+type data     # minutes
+pause 0.1
+data increment
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type data # home team
+data increment
+pause 0.5
+press down
+press enter
+click team_search_box
+press home
+press control
+type a
+press delete
+type data # away team
+data increment
+pause 0.5
+press down
+press enter
+pause 0.5
+click teams_ok_button
+click next_button
+
+# select trio as market
+click trio_market
+pause 0.5
+click next_button
+pause 0.5
+click next_button
+pause 0.5
+click finish_button
+
+pause 3
+click create_new_match
+pause 3
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+day 1533, 483
+next_button 1770, 583
+set_bet_ending 1690, 505
+team_search_button 1457, 374
+team_search_box 1429, 301
+teams_ok_button 1665, 576
+trio_market 1410, 271
+finish_button 1840, 580
+create_new_match 1730, 585
+</click_locations>
+
+<data>
+# Match #61
+20             # day
+03             # month
+2018           # year (4 digits)
+08             # hour
+50             # minutes
+Western Sydney # home team
+Brisbane Roar  # away team
+
+# Match #62
+20         # day
+03         # month
+2018       # year (4 digits)
+17         # hour
+30         # minutes
+Kapfenberg # home team
+BW Linz    # away team
+
+# Match #63
+21      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+45      # minutes
+Walsall # home team
+Wigan   # away team
+
+# Match #64
+21           # day
+03           # month
+2018         # year (4 digits)
+19           # hour
+45           # minutes
+Crawley Town # home team
+Wycombe      # away team
+
+# Match #65
+21         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+45         # minutes
+Barrow     # home team
+Hartlepool # away team
+
+# Match #66
+21     # day
+03     # month
+2018   # year (4 digits)
+11     # hour
+00     # minutes
+Jordan # home team
+Kuwait # away team
+
+# Match #67
+21         # day
+03         # month
+2018       # year (4 digits)
+11         # hour
+00         # minutes
+Togo       # home team
+Madagascar # away team
+
+# Match #68
+21            # day
+03            # month
+2018          # year (4 digits)
+17            # hour
+00            # minutes
+Liechtenstein # home team
+Andorra       # away team
+
+# Match #69
+21          # day
+03          # month
+2018        # year (4 digits)
+11          # hour
+00          # minutes
+Belgium U19 # home team
+France U19  # away team
+
+# Match #70
+21                 # day
+03                 # month
+2018               # year (4 digits)
+11                 # hour
+00                 # minutes
+Czech Republic U19 # home team
+Poland U19         # away team
+
+# Match #71
+21              # day
+03              # month
+2018            # year (4 digits)
+11              # hour
+00              # minutes
+Norway U19      # home team
+Netherlands U19 # away team
+
+# Match #72
+21          # day
+03          # month
+2018        # year (4 digits)
+12          # hour
+30          # minutes
+Sweden U19  # home team
+Ukraine U19 # away team
+
+# Match #73
+21                # day
+03                # month
+2018              # year (4 digits)
+13                # hour
+00                # minutes
+FYR Macedonia U19 # home team
+Latvia U19        # away team
+
+# Match #74
+21          # day
+03          # month
+2018        # year (4 digits)
+13          # hour
+00          # minutes
+Hungary U19 # home team
+England U19 # away team
+
+# Match #75
+21          # day
+03          # month
+2018        # year (4 digits)
+14          # hour
+00          # minutes
+Turkey U19  # home team
+Austria U19 # away team
+
+# Match #76
+21         # day
+03         # month
+2018       # year (4 digits)
+14         # hour
+30         # minutes
+Greece U19 # home team
+Italy U19  # away team
+
+# Match #77
+21           # day
+03           # month
+2018         # year (4 digits)
+15           # hour
+00           # minutes
+Slovakia U19 # home team
+Ireland U19  # away team
+
+# Match #78
+21           # day
+03           # month
+2018         # year (4 digits)
+17           # hour
+00           # minutes
+Germany U19  # home team
+Scotland U19 # away team
+
+# Match #79
+21           # day
+03           # month
+2018         # year (4 digits)
+17           # hour
+00           # minutes
+Portugal U19 # home team
+Kosovo U19   # away team
+
+# Match #80
+21          # day
+03          # month
+2018        # year (4 digits)
+17          # hour
+00          # minutes
+Romania U19 # home team
+Serbia U19  # away team
+
+# Match #81
+21           # day
+03           # month
+2018         # year (4 digits)
+17           # hour
+00           # minutes
+Spain U19    # home team
+Bulgaria U19 # away team
+
+# Match #82
+21                 # day
+03                 # month
+2018               # year (4 digits)
+18                 # hour
+00                 # minutes
+Denmark U19        # home team
+Bosnia & Herz' U19 # away team
+
+# Match #83
+21                 # day
+03                 # month
+2018               # year (4 digits)
+10                 # hour
+00                 # minutes
+France U17         # home team
+Bosnia & Herz' U17 # away team
+
+# Match #84
+21          # day
+03          # month
+2018        # year (4 digits)
+10          # hour
+00          # minutes
+Germany U17 # home team
+Norway U17  # away team
+
+# Match #85
+21          # day
+03          # month
+2018        # year (4 digits)
+13          # hour
+30          # minutes
+Ukraine U17 # home team
+Spain U17   # away team
+
+# Match #86
+21           # day
+03           # month
+2018         # year (4 digits)
+14           # hour
+00           # minutes
+Greece U17   # home team
+Scotland U17 # away team
+
+# Match #87
+21                 # day
+03                 # month
+2018               # year (4 digits)
+16                 # hour
+00                 # minutes
+Serbia U17         # home team
+Czech Republic U17 # away team
+
+# Match #88
+21          # day
+03          # month
+2018        # year (4 digits)
+16          # hour
+30          # minutes
+Georgia U17 # home team
+Poland U17  # away team
+
+# Match #89
+21                 # day
+03                 # month
+2018               # year (4 digits)
+16                 # hour
+30                 # minutes
+Rep of Ireland U17 # home team
+FYR Macedonia U17  # away team
+
+# Match #90
+21          # day
+03          # month
+2018        # year (4 digits)
+17          # hour
+30          # minutes
+Denmark U17 # home team
+Austria U17 # away team
+
+# Match #91
+21          # day
+03          # month
+2018        # year (4 digits)
+20          # hour
+00          # minutes
+Corinthians # home team
+Bragantino  # away team
+
+# Match #92
+21            # day
+03            # month
+2018          # year (4 digits)
+20            # hour
+00            # minutes
+Palmerias     # home team
+Novorizontino # away team
+
+# Match #93
+21          # day
+03          # month
+2018        # year (4 digits)
+20          # hour
+00          # minutes
+Santos      # home team
+Botafogo SP # away team
+
+# Match #94
+21          # day
+03          # month
+2018        # year (4 digits)
+20          # hour
+00          # minutes
+Sao Paulo   # home team
+Sao Caetano # away team
+
+# Match #95
+21                # day
+03                # month
+2018              # year (4 digits)
+23                # hour
+59                # minutes
+Brasil de Pelotas # home team
+Sao Luiz          # away team
+
+# Match #96
+21      # day
+03      # month
+2018    # year (4 digits)
+23      # hour
+59      # minutes
+Caxias  # home team
+Avenida # away team
+
+# Match #97
+21            # day
+03            # month
+2018          # year (4 digits)
+23            # hour
+59            # minutes
+Internacional # home team
+Gremio        # away team
+
+# Match #98
+21          # day
+03          # month
+2018        # year (4 digits)
+23          # hour
+59          # minutes
+Sao Jose    # home team
+Veranopolis # away team
+
+# Match #99
+22            # day
+03            # month
+2018          # year (4 digits)
+19            # hour
+45            # minutes
+Shaw Lane     # home team
+Grantham Town # away team
+
+# Match #100
+22       # day
+03       # month
+2018     # year (4 digits)
+09       # hour
+30       # minutes
+UAE      # home team
+Slovakia # away team
+
+# Match #101
+22       # day
+03       # month
+2018     # year (4 digits)
+11       # hour
+00       # minutes
+Algeria  # home team
+Tanzania # away team
+
+# Match #102
+22          # day
+03          # month
+2018        # year (4 digits)
+11          # hour
+00          # minutes
+Philippines # home team
+Fiji        # away team
+
+# Match #103
+22    # day
+03    # month
+2018  # year (4 digits)
+11    # hour
+35    # minutes
+China # home team
+Wales # away team
+
+# Match #104
+22       # day
+03       # month
+2018     # year (4 digits)
+12       # hour
+30       # minutes
+Thailand # home team
+Gabon    # away team
+
+# Match #105
+22        # day
+03        # month
+2018      # year (4 digits)
+14        # hour
+00        # minutes
+Bahrain   # home team
+Palestine # away team
+
+# Match #106
+22         # day
+03         # month
+2018       # year (4 digits)
+17         # hour
+00         # minutes
+Malta      # home team
+Luxembourg # away team
+
+# Match #107
+22      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Denmark # home team
+Panama  # away team
+
+# Match #108
+22            # day
+03            # month
+2018          # year (4 digits)
+19            # hour
+00            # minutes
+Faroe Islands # home team
+Latvia        # away team
+
+# Match #109
+22             # day
+03             # month
+2018           # year (4 digits)
+15             # hour
+00             # minutes
+Greece U21     # home team
+San Marino U21 # away team
+
+# Match #110
+22          # day
+03          # month
+2018        # year (4 digits)
+18          # hour
+00          # minutes
+Germany U21 # home team
+Israel U21  # away team
+
+# Match #111
+22             # day
+03             # month
+2018           # year (4 digits)
+18             # hour
+00             # minutes
+Kosovo U21     # home team
+Azerbaijan U21 # away team
+
+# Match #112
+22          # day
+03          # month
+2018        # year (4 digits)
+19          # hour
+00          # minutes
+Hungary U21 # home team
+Cyprus U21  # away team
+
+# Match #113
+22             # day
+03             # month
+2018           # year (4 digits)
+19             # hour
+45             # minutes
+N. Ireland U21 # home team
+Spain U21      # away team
+
+# Match #114
+22          # day
+03          # month
+2018        # year (4 digits)
+13          # hour
+00          # minutes
+Israel U17  # home team
+Romania U17 # away team
+
+# Match #115
+22           # day
+03           # month
+2018         # year (4 digits)
+13           # hour
+00           # minutes
+Slovenia U17 # home team
+Hungary U17  # away team
+
+# Match #116
+23             # day
+03             # month
+2018           # year (4 digits)
+19             # hour
+45             # minutes
+Ballinamallard # home team
+Linfield       # away team
+
+# Match #117
+23           # day
+03           # month
+2018         # year (4 digits)
+19           # hour
+45           # minutes
+Cliftonville # home team
+Ards         # away team
+
+# Match #118
+23              # day
+03              # month
+2018            # year (4 digits)
+19              # hour
+45              # minutes
+Coleraine       # home team
+Carrick Rangers # away team
+
+# Match #119
+23        # day
+03        # month
+2018      # year (4 digits)
+19        # hour
+45        # minutes
+Dungannon # home team
+Glenavon  # away team
+
+# Match #120
+23        # day
+03        # month
+2018      # year (4 digits)
+19        # hour
+45        # minutes
+Glentoran # home team
+Ballymena # away team
+
+# Match #121
+23          # day
+03          # month
+2018        # year (4 digits)
+19          # hour
+45          # minutes
+Warrenpoint # home team
+Crusaders   # away team
+
+# Match #122
+23              # day
+03              # month
+2018            # year (4 digits)
+19              # hour
+30              # minutes
+Waterford       # home team
+Shamrock Rovers # away team
+
+# Match #123
+23        # day
+03        # month
+2018      # year (4 digits)
+19        # hour
+45        # minutes
+Bohemians # home team
+Bray      # away team
+
+# Match #124
+23         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+45         # minutes
+Cork City  # home team
+Derry City # away team
+
+# Match #125
+23              # day
+03              # month
+2018            # year (4 digits)
+19              # hour
+45              # minutes
+St. Pat's Athl. # home team
+Limerick        # away team
+
+# Match #126
+23           # day
+03           # month
+2018         # year (4 digits)
+19           # hour
+45           # minutes
+Sligo Rovers # home team
+Dundalk      # away team
+
+# Match #127
+23           # day
+03           # month
+2018         # year (4 digits)
+19           # hour
+45           # minutes
+Drogheda Utd # home team
+Galway Utd   # away team
+
+# Match #128
+23            # day
+03            # month
+2018          # year (4 digits)
+19            # hour
+45            # minutes
+Shelbourne    # home team
+Cobh Ramblers # away team
+
+# Match #129
+23         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+45         # minutes
+UCD        # home team
+Cabinteely # away team
+
+# Match #130
+23             # day
+03             # month
+2018           # year (4 digits)
+20             # hour
+00             # minutes
+Finn Harps     # home team
+Wexford Youths # away team
+
+# Match #131
+23            # day
+03            # month
+2018          # year (4 digits)
+19            # hour
+45            # minutes
+Bala Town     # home team
+Connah's Quay # away team
+
+# Match #132
+23         # day
+03         # month
+2018       # year (4 digits)
+11         # hour
+00         # minutes
+Senegal    # home team
+Uzbekistan # away team
+
+# Match #133
+23             # day
+03             # month
+2018           # year (4 digits)
+11             # hour
+35             # minutes
+Uruguay        # home team
+Czech Republic # away team
+
+# Match #134
+23         # day
+03         # month
+2018       # year (4 digits)
+16         # hour
+00         # minutes
+Azerbaijan # home team
+Belarus    # away team
+
+# Match #135
+23     # day
+03     # month
+2018   # year (4 digits)
+16     # hour
+00     # minutes
+Russia # home team
+Brazil # away team
+
+# Match #136
+23        # day
+03        # month
+2018      # year (4 digits)
+17        # hour
+00        # minutes
+Norway    # home team
+Australia # away team
+
+# Match #137
+23             # day
+03             # month
+2018           # year (4 digits)
+17             # hour
+30             # minutes
+Turkey         # home team
+Rep of Ireland # away team
+
+# Match #138
+23         # day
+03         # month
+2018       # year (4 digits)
+18         # hour
+00         # minutes
+Cyprus     # home team
+Montenegro # away team
+
+# Match #139
+23          # day
+03          # month
+2018        # year (4 digits)
+18          # hour
+00          # minutes
+Greece      # home team
+Switzerland # away team
+
+# Match #140
+23      # day
+03      # month
+2018    # year (4 digits)
+18      # hour
+00      # minutes
+Tunisia # home team
+Iran    # away team
+
+# Match #141
+23             # day
+03             # month
+2018           # year (4 digits)
+19             # hour
+00             # minutes
+Bulgaria       # home team
+Bosnia & Herz' # away team
+
+# Match #142
+23            # day
+03            # month
+2018          # year (4 digits)
+19            # hour
+00            # minutes
+FYR Macedonia # home team
+Finland       # away team
+
+# Match #143
+23         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+00         # minutes
+Hungary    # home team
+Kazakhstan # away team
+
+# Match #144
+23    # day
+03    # month
+2018  # year (4 digits)
+19    # hour
+00    # minutes
+Mali  # home team
+Japan # away team
+
+# Match #145
+23      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Poland  # home team
+Nigeria # away team
+
+# Match #146
+23       # day
+03       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Portugal # home team
+Egypt    # away team
+
+# Match #147
+23           # day
+03           # month
+2018         # year (4 digits)
+19           # hour
+00           # minutes
+Ukraine      # home team
+Saudi Arabia # away team
+
+# Match #148
+23      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+30      # minutes
+Serbia  # home team
+Morocco # away team
+
+# Match #149
+23      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+45      # minutes
+Germany # home team
+Spain   # away team
+
+# Match #150
+23        # day
+03        # month
+2018      # year (4 digits)
+19        # hour
+45        # minutes
+Italy     # home team
+Argentina # away team
+
+# Match #151
+23      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+45      # minutes
+Holland # home team
+England # away team
+
+# Match #152
+23         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+45         # minutes
+Scotland   # home team
+Costa Rica # away team
+
+# Match #153
+23       # day
+03       # month
+2018     # year (4 digits)
+20       # hour
+00       # minutes
+France   # home team
+Colombia # away team
+
+# Match #154
+23      # day
+03      # month
+2018    # year (4 digits)
+21      # hour
+00      # minutes
+Mexico  # home team
+Iceland # away team
+
+# Match #155
+23      # day
+03      # month
+2018    # year (4 digits)
+21      # hour
+00      # minutes
+Peru    # home team
+Croatia # away team
+
+# Match #156
+23                # day
+03                # month
+2018              # year (4 digits)
+13                # hour
+00                # minutes
+FYR Macedonia U21 # home team
+Russia U21        # away team
+
+# Match #157
+23             # day
+03             # month
+2018           # year (4 digits)
+13             # hour
+00             # minutes
+Kazakhstan U21 # home team
+France U21     # away team
+
+# Match #158
+23         # day
+03         # month
+2018       # year (4 digits)
+13         # hour
+00         # minutes
+Turkey U21 # home team
+Sweden U21 # away team
+
+# Match #159
+23                 # day
+03                 # month
+2018               # year (4 digits)
+14                 # hour
+00                 # minutes
+Bosnia & Herz' U21 # home team
+Wales U21          # away team
+
+# Match #160
+23                 # day
+03                 # month
+2018               # year (4 digits)
+15                 # hour
+00                 # minutes
+Czech Republic U21 # home team
+Croatia U21        # away team
+
+# Match #161
+23                # day
+03                # month
+2018              # year (4 digits)
+15                # hour
+00                # minutes
+Georgia U21       # home team
+Faroe Islands U21 # away team
+
+# Match #162
+23            # day
+03            # month
+2018          # year (4 digits)
+16            # hour
+00            # minutes
+Lithuania U21 # home team
+Finland U21   # away team
+
+# Match #163
+23           # day
+03           # month
+2018         # year (4 digits)
+16           # hour
+20           # minutes
+Albania U21  # home team
+Slovakia U21 # away team
+
+# Match #164
+23           # day
+03           # month
+2018         # year (4 digits)
+17           # hour
+00           # minutes
+Andorra U21  # home team
+Scotland U21 # away team
+
+# Match #165
+23             # day
+03             # month
+2018           # year (4 digits)
+17             # hour
+30             # minutes
+Luxembourg U21 # home team
+Montenegro U21 # away team
+
+# Match #166
+23                # day
+03                # month
+2018              # year (4 digits)
+17                # hour
+45                # minutes
+Portugal U21      # home team
+Liechtenstein U21 # away team
+
+# Match #167
+23            # day
+03            # month
+2018          # year (4 digits)
+19            # hour
+00            # minutes
+Gibraltar U21 # home team
+Serbia U21    # away team
+
+# Match #168
+23             # day
+03             # month
+2018           # year (4 digits)
+08             # hour
+50             # minutes
+Adelaide Utd   # home team
+Newcastle Jets # away team
+
+# Match #169
+23      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Helmond # home team
+Top Oss # away team
+
+# Match #170
+23           # day
+03           # month
+2018         # year (4 digits)
+19           # hour
+00           # minutes
+Jong Utrecht # home team
+Jong PSV     # away team
+
+# Match #171
+23         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+00         # minutes
+Maastricht # home team
+Eindhoven  # away team
+
+# Match #172
+23         # day
+03         # month
+2018       # year (4 digits)
+19         # hour
+00         # minutes
+Nijmegen   # home team
+Graafschap # away team
+
+# Match #173
+23      # day
+03      # month
+2018    # year (4 digits)
+19      # hour
+00      # minutes
+Sittard # home team
+Cambuur # away team
+</data>
+
+<notes>
+Script to build a new football match (trio)
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+2
+</total_loops>
+

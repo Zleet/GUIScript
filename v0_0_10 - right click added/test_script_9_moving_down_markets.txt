@@ -1,0 +1,53 @@
+<pre_loop>
+click text_window
+pause 0.5
+click text_window
+pause 0.5
+click text_window
+pause 0.5
+click text_window
+pause 0.5
+</pre_loop>
+
+<main_loop>
+type test line 1
+press enter
+type test line 2
+press enter
+type test line 3
+press enter
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+text_window 117, 784
+first_market 698, 179
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Test script written on Monday 17th July 2017
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+5
+</total_loops>
+

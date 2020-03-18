@@ -1,0 +1,616 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date
+click day
+pause 1.6
+type data     # day
+pause 1.6
+data increment
+press right
+type data     # month
+pause 1.6
+data increment
+press right
+type data   # year
+pause 1.6
+data increment
+press right
+type data     # hour
+pause 1.6
+data increment
+press right
+type data     # minutes
+pause 1.6
+data increment
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type data # home team
+data increment
+pause 1
+press down
+press enter
+click team_search_box
+press home
+press control
+type a
+press delete
+type data # away team
+data increment
+pause 1
+press down
+press enter
+pause 1
+click teams_ok_button
+click next_button
+
+# select soccer saturday
+click soccer_saturday
+pause 1
+click next_button
+pause 1
+click next_button
+pause 1
+click finish_button
+
+pause 3
+click create_new_match
+pause 4
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+day 1533, 483
+next_button 1770, 583
+set_bet_ending 1690, 505
+team_search_button 1457, 374
+team_search_box 1429, 301
+teams_ok_button 1665, 576
+soccer_saturday 1424, 264
+finish_button 1840, 580
+create_new_match 1730, 585
+</click_locations>
+
+<data>
+# Match #18
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Wolves     # home team
+Sunderland # away team
+
+# Match #19
+09        # day
+12        # month
+2017      # year (4 digits)
+17        # hour
+30        # minutes
+Norwich   # home team
+Sheff Wed # away team
+
+# Match #20
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Blackpool # home team
+Rotherham # away team
+
+# Match #21
+09       # day
+12       # month
+2017     # year (4 digits)
+15       # hour
+00       # minutes
+Bradford # home team
+Rochdale # away team
+
+# Match #22
+09             # day
+12             # month
+2017           # year (4 digits)
+15             # hour
+00             # minutes
+Bristol Rovers # home team
+Southend       # away team
+
+# Match #23
+09            # day
+12            # month
+2017          # year (4 digits)
+15            # hour
+00            # minutes
+Bury          # home team
+AFC Wimbledon # away team
+
+# Match #24
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Charlton   # home team
+Portsmouth # away team
+
+# Match #25
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+MK Dons    # home team
+Shrewsbury # away team
+
+# Match #26
+09          # day
+12          # month
+2017        # year (4 digits)
+15          # hour
+00          # minutes
+Oldham      # home team
+Northampton # away team
+
+# Match #27
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Oxford Utd # home team
+Doncaster  # away team
+
+# Match #28
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Peterborough # home team
+Blackburn    # away team
+
+# Match #29
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Plymouth   # home team
+Gillingham # away team
+
+# Match #30
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Walsall    # home team
+Scunthorpe # away team
+
+# Match #31
+09             # day
+12             # month
+2017           # year (4 digits)
+15             # hour
+00             # minutes
+Wigan          # home team
+Fleetwood Town # away team
+
+# Match #32
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Acc. Stanley # home team
+Swindon      # away team
+
+# Match #33
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Cheltenham # home team
+Crewe      # away team
+
+# Match #34
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Chesterfield # home team
+Barnet       # away team
+
+# Match #35
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Colchester # home team
+Exeter     # away team
+
+# Match #36
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Crawley Town # home team
+Mansfield    # away team
+
+# Match #37
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Grimsby Town # home team
+Forest Green # away team
+
+# Match #38
+09       # day
+12       # month
+2017     # year (4 digits)
+15       # hour
+00       # minutes
+Luton    # home team
+Notts Co # away team
+
+# Match #39
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Morecambe # home team
+Coventry  # away team
+
+# Match #40
+09       # day
+12       # month
+2017     # year (4 digits)
+15       # hour
+00       # minutes
+Newport  # home team
+Carlisle # away team
+
+# Match #41
+09            # day
+12            # month
+2017          # year (4 digits)
+15            # hour
+00            # minutes
+Port Vale     # home team
+Cambridge Utd # away team
+
+# Match #42
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Stevenage # home team
+Wycombe   # away team
+
+# Match #43
+09      # day
+12      # month
+2017    # year (4 digits)
+15      # hour
+00      # minutes
+Yeovil  # home team
+Lincoln # away team
+
+# Match #44
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Hamilton     # home team
+St Johnstone # away team
+
+# Match #45
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Hearts     # home team
+Motherwell # away team
+
+# Match #46
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Kilmarnock # home team
+Partick    # away team
+
+# Match #47
+09      # day
+12      # month
+2017    # year (4 digits)
+15      # hour
+00      # minutes
+Rangers # home team
+Ross Co # away team
+
+# Match #48
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Brechin    # home team
+St. Mirren # away team
+
+# Match #49
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Dumbarton  # home team
+Livingston # away team
+
+# Match #50
+09             # day
+12             # month
+2017           # year (4 digits)
+15             # hour
+00             # minutes
+Dunfermline    # home team
+Queen of South # away team
+
+# Match #51
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Inverness # home team
+Falkirk   # away team
+
+# Match #52
+09         # day
+12         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Morton     # home team
+Dundee Utd # away team
+
+# Match #53
+09            # day
+12            # month
+2017          # year (4 digits)
+15            # hour
+00            # minutes
+Albion Rovers # home team
+Arbroath      # away team
+
+# Match #54
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Ayr          # home team
+Queen's Park # away team
+
+# Match #55
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+East Fife # home team
+Stranraer # away team
+
+# Match #56
+09              # day
+12              # month
+2017            # year (4 digits)
+15              # hour
+00              # minutes
+Forfar Athletic # home team
+Alloa           # away team
+
+# Match #57
+09             # day
+12             # month
+2017           # year (4 digits)
+15             # hour
+00             # minutes
+Elgin City     # home team
+Edinburgh City # away team
+
+# Match #58
+09       # day
+12       # month
+2017     # year (4 digits)
+15       # hour
+00       # minutes
+Montrose # home team
+Berwick  # away team
+
+# Match #59
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Peterhead # home team
+Clyde     # away team
+
+# Match #60
+09            # day
+12            # month
+2017          # year (4 digits)
+15            # hour
+00            # minutes
+Stenhousemuir # home team
+Annan         # away team
+
+# Match #61
+09          # day
+12          # month
+2017        # year (4 digits)
+15          # hour
+00          # minutes
+Stirling    # home team
+Cowdenbeath # away team
+
+# Match #62
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Ards      # home team
+Ballymena # away team
+
+# Match #63
+09              # day
+12              # month
+2017            # year (4 digits)
+15              # hour
+00              # minutes
+Carrick Rangers # home team
+Linfield        # away team
+
+# Match #64
+09           # day
+12           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Cliftonville # home team
+Glenavon     # away team
+
+# Match #65
+09        # day
+12        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Coleraine # home team
+Dungannon # away team
+
+# Match #66
+09             # day
+12             # month
+2017           # year (4 digits)
+15             # hour
+00             # minutes
+Glentoran      # home team
+Ballinamallard # away team
+
+# Match #67
+09          # day
+12          # month
+2017        # year (4 digits)
+15          # hour
+00          # minutes
+Warrenpoint # home team
+Crusaders   # away team
+
+# Match #68
+10          # day
+12          # month
+2017        # year (4 digits)
+12          # hour
+00          # minutes
+Southampton # home team
+Arsenal     # away team
+
+# Match #69
+10        # day
+12        # month
+2017      # year (4 digits)
+14        # hour
+15        # minutes
+Liverpool # home team
+Everton   # away team
+
+# Match #70
+10       # day
+12       # month
+2017     # year (4 digits)
+16       # hour
+30       # minutes
+Man Utd  # home team
+Man City # away team
+
+# Match #71
+10        # day
+12        # month
+2017      # year (4 digits)
+12        # hour
+30        # minutes
+Hibernian # home team
+Celtic    # away team
+
+# Match #72
+10            # day
+12            # month
+2017          # year (4 digits)
+16            # hour
+10            # minutes
+Airdrieonians # home team
+Raith         # away team
+
+# Match #73
+11      # day
+12      # month
+2017    # year (4 digits)
+20      # hour
+00      # minutes
+Reading # home team
+Cardiff # away team
+</data>
+
+<notes>
+Script to build football matches for Soccer Saturday
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+28
+</total_loops>
+

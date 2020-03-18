@@ -1,0 +1,1034 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date
+click day
+pause 0.5
+type data     # day
+pause 0.5
+data increment
+press right
+type data     # month
+pause 0.5
+data increment
+press right
+type data   # year
+pause 0.5
+data increment
+press right
+type data     # hour
+pause 0.5
+data increment
+press right
+type data     # minutes
+pause 0.5
+data increment
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type data # home team
+data increment
+pause 1
+press down
+press enter
+type data # away team
+data increment
+pause 1
+press down
+press enter
+pause 1
+click teams_ok_button
+click next_button
+
+# select trio as market
+click trio_market
+pause 1
+click next_button
+pause 1
+click next_button
+pause 1
+click finish_button
+
+pause 4
+click create_new_match
+pause 3
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 64, 91
+day 1533, 483
+next_button 1770, 583
+set_bet_ending 1690, 505
+team_search_button 1457, 374
+team_search_box 1429, 301
+teams_ok_button 1665, 576
+trio_market 1410, 271
+finish_button 1840, 580
+create_new_match 1730, 585
+</click_locations>
+
+<data>
+# Match #53
+24      # day
+09      # month
+2017    # year (4 digits)
+13      # hour
+30      # minutes
+Ajax    # home team
+Vitesse # away team
+
+# Match #54
+24        # day
+09        # month
+2017      # year (4 digits)
+13        # hour
+30        # minutes
+Groningen # home team
+Twente    # away team
+
+# Match #55
+24     # day
+09     # month
+2017   # year (4 digits)
+13     # hour
+30     # minutes
+Venlo  # home team
+Zwolle # away team
+
+# Match #56
+24         # day
+09         # month
+2017       # year (4 digits)
+15         # hour
+45         # minutes
+AZ Alkmaar # home team
+Excelsior  # away team
+
+# Match #57
+23      # day
+09      # month
+2017    # year (4 digits)
+16      # hour
+00      # minutes
+Estoril # home team
+Chaves  # away team
+
+# Match #58
+23         # day
+09         # month
+2017       # year (4 digits)
+18         # hour
+15         # minutes
+Moreirense # home team
+Sporting   # away team
+
+# Match #59
+23       # day
+09       # month
+2017     # year (4 digits)
+20       # hour
+30       # minutes
+Benfica  # home team
+Ferreira # away team
+
+# Match #60
+24         # day
+09         # month
+2017       # year (4 digits)
+16         # hour
+00         # minutes
+Feirense   # home team
+Belenenses # away team
+
+# Match #61
+24        # day
+09        # month
+2017      # year (4 digits)
+16        # hour
+00        # minutes
+Guimaraes # home team
+Maritimo  # away team
+
+# Match #62
+24      # day
+09      # month
+2017    # year (4 digits)
+18      # hour
+00      # minutes
+Tondela # home team
+Braga   # away team
+
+# Match #63
+24      # day
+09      # month
+2017    # year (4 digits)
+20      # hour
+15      # minutes
+Aves    # home team
+Rio Ave # away team
+
+# Match #64
+23       # day
+09       # month
+2017     # year (4 digits)
+17       # hour
+00       # minutes
+Genk     # home team
+Oostende # away team
+
+# Match #65
+23          # day
+09          # month
+2017        # year (4 digits)
+19          # hour
+00          # minutes
+Mechelen    # home team
+St. Truiden # away team
+
+# Match #66
+23       # day
+09       # month
+2017     # year (4 digits)
+19       # hour
+00       # minutes
+Mouscron # home team
+Eupen    # away team
+
+# Match #67
+23               # day
+09               # month
+2017             # year (4 digits)
+19               # hour
+30               # minutes
+Waasland-Beveren # home team
+Anderlecht       # away team
+
+# Match #68
+24      # day
+09      # month
+2017    # year (4 digits)
+13      # hour
+30      # minutes
+Gent    # home team
+Waregem # away team
+
+# Match #69
+24          # day
+09          # month
+2017        # year (4 digits)
+17          # hour
+00          # minutes
+Charleroi   # home team
+Club Brugge # away team
+
+# Match #70
+24        # day
+09        # month
+2017      # year (4 digits)
+19        # hour
+00        # minutes
+St. Liege # home team
+Lokeren   # away team
+
+# Match #71
+23                   # day
+09                   # month
+2017                 # year (4 digits)
+12                   # hour
+00                   # minutes
+Konyaspor            # home team
+Akhisar Genclik Spor # away team
+
+# Match #72
+23             # day
+09             # month
+2017           # year (4 digits)
+14             # hour
+30             # minutes
+Genclerbirligi # home team
+Basaksehir     # away team
+
+# Match #73
+23         # day
+09         # month
+2017       # year (4 digits)
+17         # hour
+30         # minutes
+Fenerbahce # home team
+Besiktas   # away team
+
+# Match #74
+24               # day
+09               # month
+2017             # year (4 digits)
+12               # hour
+00               # minutes
+Kardemir Karabuk # home team
+Yeni Malatyaspor # away team
+
+# Match #75
+24        # day
+09        # month
+2017      # year (4 digits)
+12        # hour
+00        # minutes
+Sivasspor # home team
+Goztepe   # away team
+
+# Match #76
+24          # day
+09          # month
+2017        # year (4 digits)
+14          # hour
+30          # minutes
+Kasimpasa   # home team
+Kayserispor # away team
+
+# Match #77
+24          # day
+09          # month
+2017        # year (4 digits)
+17          # hour
+30          # minutes
+Bursaspor   # home team
+Galatasaray # away team
+
+# Match #78
+23        # day
+09        # month
+2017      # year (4 digits)
+14        # hour
+00        # minutes
+Smyrnis   # home team
+Platanias # away team
+
+# Match #79
+23        # day
+09        # month
+2017      # year (4 digits)
+16        # hour
+15        # minutes
+Atromitos # home team
+Lamia     # away team
+
+# Match #80
+23            # day
+09            # month
+2017          # year (4 digits)
+18            # hour
+30            # minutes
+Panetolikos   # home team
+Panathinaikos # away team
+
+# Match #81
+24       # day
+09       # month
+2017     # year (4 digits)
+14       # hour
+00       # minutes
+PAOK     # home team
+Giannina # away team
+
+# Match #82
+24         # day
+09         # month
+2017       # year (4 digits)
+16         # hour
+15         # minutes
+Kerkyra    # home team
+Levadiakos # away team
+
+# Match #83
+24          # day
+09          # month
+2017        # year (4 digits)
+16          # hour
+15          # minutes
+Panionios   # home team
+AEL Larissa # away team
+
+# Match #84
+24                 # day
+09                 # month
+2017               # year (4 digits)
+18                 # hour
+30                 # minutes
+AEK Athens         # home team
+Olympiakos Piraeus # away team
+
+# Match #85
+23             # day
+09             # month
+2017           # year (4 digits)
+15             # hour
+00             # minutes
+Rapid Vienna   # home team
+AC Wolfsberger # away team
+
+# Match #86
+23          # day
+09          # month
+2017        # year (4 digits)
+17          # hour
+30          # minutes
+LASK Linz   # home team
+Mattersburg # away team
+
+# Match #87
+23         # day
+09         # month
+2017       # year (4 digits)
+17         # hour
+30         # minutes
+St. Polten # home team
+Admira     # away team
+
+# Match #88
+23         # day
+09         # month
+2017       # year (4 digits)
+17         # hour
+30         # minutes
+Sturm Graz # home team
+Altach     # away team
+
+# Match #89
+24                # day
+09                # month
+2017              # year (4 digits)
+15                # hour
+30                # minutes
+Red Bull Salzburg # home team
+Austria Vienna    # away team
+
+# Match #90
+23        # day
+09        # month
+2017      # year (4 digits)
+15        # hour
+00        # minutes
+Horsens   # home team
+Helsingor # away team
+
+# Match #91
+23         # day
+09         # month
+2017       # year (4 digits)
+17         # hour
+00         # minutes
+Copenhagen # home team
+Silkeborg  # away team
+
+# Match #92
+24      # day
+09      # month
+2017    # year (4 digits)
+13      # hour
+00      # minutes
+Aalborg # home team
+Lyngby  # away team
+
+# Match #93
+24      # day
+09      # month
+2017    # year (4 digits)
+15      # hour
+00      # minutes
+Odense  # home team
+Randers # away team
+
+# Match #94
+24      # day
+09      # month
+2017    # year (4 digits)
+17      # hour
+00      # minutes
+Hobro   # home team
+Brondby # away team
+
+# Match #95
+24      # day
+09      # month
+2017    # year (4 digits)
+13      # hour
+00      # minutes
+PS Kemi # home team
+VPS     # away team
+
+# Match #96
+24   # day
+09   # month
+2017 # year (4 digits)
+16   # hour
+30   # minutes
+KuPS # home team
+HIFK # away team
+
+# Match #97
+24        # day
+09        # month
+2017      # year (4 digits)
+16        # hour
+30        # minutes
+Lahti     # home team
+Rovaniemi # away team
+
+# Match #98
+23        # day
+09        # month
+2017      # year (4 digits)
+17        # hour
+00        # minutes
+Haugesund # home team
+Viking    # away team
+
+# Match #99
+24       # day
+09       # month
+2017     # year (4 digits)
+17       # hour
+00       # minutes
+Aalesund # home team
+Sogndal  # away team
+
+# Match #100
+24           # day
+09           # month
+2017         # year (4 digits)
+17           # hour
+00           # minutes
+Kristiansund # home team
+Stabaek      # away team
+
+# Match #101
+24         # day
+09         # month
+2017       # year (4 digits)
+17         # hour
+00         # minutes
+Lillestrom # home team
+Rosenborg  # away team
+
+# Match #102
+24         # day
+09         # month
+2017       # year (4 digits)
+17         # hour
+00         # minutes
+Molde      # home team
+Sandefjord # away team
+
+# Match #103
+24           # day
+09           # month
+2017         # year (4 digits)
+17           # hour
+00           # minutes
+Stromsgodset # home team
+Tromso       # away team
+
+# Match #104
+23        # day
+09        # month
+2017      # year (4 digits)
+16        # hour
+00        # minutes
+Concordia # home team
+Sepsi     # away team
+
+# Match #105
+23             # day
+09             # month
+2017           # year (4 digits)
+18             # hour
+30             # minutes
+Poli Iasi      # home team
+Poli Timisoara # away team
+
+# Match #106
+24          # day
+09          # month
+2017        # year (4 digits)
+15          # hour
+30          # minutes
+FC Botosani # home team
+FC Viitorul # away team
+
+# Match #107
+24             # day
+09             # month
+2017           # year (4 digits)
+18             # hour
+30             # minutes
+FCSB           # home team
+Din. Bucuresti # away team
+
+# Match #108
+23            # day
+09            # month
+2017          # year (4 digits)
+14            # hour
+30            # minutes
+Dynamo Moscow # home team
+CSKA Moscow   # away team
+
+# Match #109
+23              # day
+09              # month
+2017            # year (4 digits)
+17              # hour
+00              # minutes
+Spartak Moscow  # home team
+Anzi Makhackala # away team
+
+# Match #110
+24           # day
+09           # month
+2017         # year (4 digits)
+09           # hour
+30           # minutes
+Ufa          # home team
+Arsenal Tula # away team
+
+# Match #111
+24    # day
+09    # month
+2017  # year (4 digits)
+12    # hour
+00    # minutes
+Ural  # home team
+Tosno # away team
+
+# Match #112
+24          # day
+09          # month
+2017        # year (4 digits)
+14          # hour
+30          # minutes
+Rostov      # home team
+Loko Moscow # away team
+
+# Match #113
+24               # day
+09               # month
+2017             # year (4 digits)
+17               # hour
+00               # minutes
+Krasnodar        # home team
+Zenit Petersburg # away team
+
+# Match #114
+23         # day
+09         # month
+2017       # year (4 digits)
+13         # hour
+00         # minutes
+Halmstad   # home team
+Norrkoping # away team
+
+# Match #115
+24         # day
+09         # month
+2017       # year (4 digits)
+14         # hour
+00         # minutes
+Djurgarden # home team
+Hammarby   # away team
+
+# Match #116
+24         # day
+09         # month
+2017       # year (4 digits)
+14         # hour
+00         # minutes
+Kalmar     # home team
+Ostersunds # away team
+
+# Match #117
+24            # day
+09            # month
+2017          # year (4 digits)
+16            # hour
+30            # minutes
+Hacken        # home team
+AIK Stockholm # away team
+
+# Match #118
+24         # day
+09         # month
+2017       # year (4 digits)
+16         # hour
+30         # minutes
+Jonkopings # home team
+Sundsvall  # away team
+
+# Match #119
+23     # day
+09     # month
+2017   # year (4 digits)
+18     # hour
+00     # minutes
+Basel  # home team
+Zurich # away team
+
+# Match #120
+23       # day
+09       # month
+2017     # year (4 digits)
+18       # hour
+00       # minutes
+Luzern   # home team
+Lausanne # away team
+
+# Match #121
+24           # day
+09           # month
+2017         # year (4 digits)
+15           # hour
+00           # minutes
+Lugano       # home team
+Grasshoppers # away team
+
+# Match #122
+24         # day
+09         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+Sion       # home team
+Young Boys # away team
+
+# Match #123
+24         # day
+09         # month
+2017       # year (4 digits)
+15         # hour
+00         # minutes
+St. Gallen # home team
+Thun       # away team
+
+# Match #124
+23          # day
+09          # month
+2017        # year (4 digits)
+23          # hour
+59          # minutes
+Flamengo RJ # home team
+Avai        # away team
+
+# Match #125
+23          # day
+09          # month
+2017        # year (4 digits)
+23          # hour
+59          # minutes
+Santos      # home team
+Atletico-PR # away team
+
+# Match #126
+24          # day
+09          # month
+2017        # year (4 digits)
+15          # hour
+00          # minutes
+Sao Paulo   # home team
+Corinthians # away team
+
+# Match #127
+24          # day
+09          # month
+2017        # year (4 digits)
+20          # hour
+00          # minutes
+Atletico GO # home team
+Cruzeiro    # away team
+
+# Match #128
+24             # day
+09             # month
+2017           # year (4 digits)
+20             # hour
+00             # minutes
+Chapecoense-SC # home team
+Ponte Preta    # away team
+
+# Match #129
+24          # day
+09          # month
+2017        # year (4 digits)
+20          # hour
+00          # minutes
+Coritiba    # home team
+Botafogo RJ # away team
+
+# Match #130
+24         # day
+09         # month
+2017       # year (4 digits)
+20         # hour
+00         # minutes
+Fluminense # home team
+Palmeiras  # away team
+
+# Match #131
+24          # day
+09          # month
+2017        # year (4 digits)
+23          # hour
+59          # minutes
+Atletico-MG # home team
+Vitoria     # away team
+
+# Match #132
+24     # day
+09     # month
+2017   # year (4 digits)
+23     # hour
+59     # minutes
+Bahia  # home team
+Gremio # away team
+
+# Match #133
+24           # day
+09           # month
+2017         # year (4 digits)
+23           # hour
+59           # minutes
+Sport Recife # home team
+Vasco        # away team
+
+# Match #134
+23       # day
+09       # month
+2017     # year (4 digits)
+20       # hour
+30       # minutes
+CRB      # home team
+Criciuma # away team
+
+# Match #135
+23          # day
+09          # month
+2017        # year (4 digits)
+20          # hour
+30          # minutes
+Figueirense # home team
+ABC         # away team
+
+# Match #136
+23          # day
+09          # month
+2017        # year (4 digits)
+20          # hour
+30          # minutes
+Goias       # home team
+Paysandu PA # away team
+
+# Match #137
+23            # day
+09            # month
+2017          # year (4 digits)
+20            # hour
+30            # minutes
+Nautico       # home team
+Internacional # away team
+
+# Match #138
+23                # day
+09                # month
+2017              # year (4 digits)
+20                # hour
+30                # minutes
+Ceara             # home team
+Brasil de Pelotas # away team
+
+# Match #139
+23             # day
+09             # month
+2017           # year (4 digits)
+20             # hour
+00             # minutes
+New York City  # home team
+Houston Dynamo # away team
+
+# Match #140
+23               # day
+09               # month
+2017             # year (4 digits)
+22               # hour
+00               # minutes
+New England Rev' # home team
+Toronto FC       # away team
+
+# Match #141
+23                   # day
+09                   # month
+2017                 # year (4 digits)
+23                   # hour
+59                   # minutes
+DC United            # home team
+San Jose Earthquakes # away team
+
+# Match #142
+23                 # day
+09                 # month
+2017               # year (4 digits)
+23                 # hour
+59                 # minutes
+Philadelphia Union # home team
+Chicago Fire       # away team
+
+# Match #143
+23                 # day
+09                 # month
+2017               # year (4 digits)
+23                 # hour
+59                 # minutes
+Columbus Crew      # home team
+New York Red Bulls # away team
+
+# Match #144
+23        # day
+09        # month
+2017      # year (4 digits)
+23        # hour
+59        # minutes
+Minnesota # home team
+FC Dallas # away team
+
+# Match #145
+23               # day
+09               # month
+2017             # year (4 digits)
+23               # hour
+59               # minutes
+Real Salt Lake   # home team
+Seattle Sounders # away team
+
+# Match #146
+23                  # day
+09                  # month
+2017                # year (4 digits)
+23                  # hour
+59                  # minutes
+Vancouver Whitecaps # home team
+Colorado Rapids     # away team
+
+# Match #147
+24                   # day
+09                   # month
+2017                 # year (4 digits)
+19                   # hour
+00                   # minutes
+Sporting Kansas City # home team
+Los Angeles Galaxy   # away team
+
+# Match #148
+24              # day
+09              # month
+2017            # year (4 digits)
+22              # hour
+00              # minutes
+Atlanta Utd     # home team
+Montreal Impact # away team
+
+# Match #149
+24               # day
+09               # month
+2017             # year (4 digits)
+23               # hour
+59               # minutes
+Portland Timbers # home team
+Orlando City     # away team
+
+# Match #150
+23                # day
+09                # month
+2017              # year (4 digits)
+12                # hour
+00                # minutes
+Arminia Bielefeld # home team
+Heidenheim        # away team
+
+# Match #151
+23           # day
+09           # month
+2017         # year (4 digits)
+12           # hour
+00           # minutes
+Regensburg   # home team
+Braunschweig # away team
+
+# Match #152
+23         # day
+09         # month
+2017       # year (4 digits)
+12         # hour
+00         # minutes
+St. Pauli  # home team
+Dusseldorf # away team
+
+# Match #153
+24         # day
+09         # month
+2017       # year (4 digits)
+12         # hour
+30         # minutes
+Bochum     # home team
+Ingolstadt # away team
+
+# Match #154
+24                # day
+09                # month
+2017              # year (4 digits)
+12                # hour
+30                # minutes
+Darmstadt         # home team
+SG Dynamo Dresden # away team
+
+# Match #155
+24             # day
+09             # month
+2017           # year (4 digits)
+12             # hour
+30             # minutes
+Greuther Furth # home team
+Nurnberg       # away team
+</data>
+
+<notes>
+Script to build a new football match (trio)
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+32
+</total_loops>
+

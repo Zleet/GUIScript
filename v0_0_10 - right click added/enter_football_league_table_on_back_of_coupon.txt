@@ -1,0 +1,380 @@
+<pre_loop>
+pause 0.5
+press down
+pause 0.5
+press up
+pause 0.5
+press up
+pause 0.5
+</pre_loop>
+
+<main_loop>
+# start at cell above first team name cell
+press down
+pause 0.05
+read data
+pause 0.05
+type data
+pause 0.05
+data increment
+press enter
+pause 0.05
+press right
+pause 0.05
+press right
+pause 0.05
+
+# enter P
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter W
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter D
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter L
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter F
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter A
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter GD
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# enter PTS
+read data
+pause 0.05
+type data
+data increment
+press right
+pause 0.05
+
+# move left 9 times
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+press left
+pause 0.05
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+
+</click_locations>
+
+<data>
+# Team 1 of 20
+Man City
+13   # played
+12   # won
+1    # drawn
+0    # lost
+42   # for
+8    # against
+34   # goal_difference
+37   # points
+
+
+# Team 2 of 20
+Man Utd
+13   # played
+9    # won
+2    # drawn
+2    # lost
+28   # for
+6    # against
+22   # goal_difference
+29   # points
+
+
+# Team 3 of 20
+Chelsea
+13   # played
+8    # won
+2    # drawn
+3    # lost
+24   # for
+11   # against
+13   # goal_difference
+26   # points
+
+
+# Team 4 of 20
+Arsenal
+13   # played
+8    # won
+1    # drawn
+4    # lost
+23   # for
+16   # against
+7    # goal_difference
+25   # points
+
+
+# Team 5 of 20
+Tottenham
+13   # played
+7    # won
+3    # drawn
+3    # lost
+21   # for
+10   # against
+11   # goal_difference
+24   # points
+
+
+# Team 6 of 20
+Liverpool
+13   # played
+6    # won
+5    # drawn
+2    # lost
+25   # for
+18   # against
+7    # goal_difference
+23   # points
+
+
+# Team 7 of 20
+Burnley
+13   # played
+6    # won
+4    # drawn
+3    # lost
+12   # for
+10   # against
+2    # goal_difference
+22   # points
+
+
+# Team 8 of 20
+Watford
+13   # played
+6    # won
+3    # drawn
+4    # lost
+22   # for
+21   # against
+1    # goal_difference
+21   # points
+
+
+# Team 9 of 20
+Brighton
+13   # played
+4    # won
+4    # drawn
+5    # lost
+13   # for
+14   # against
+-1   # goal_difference
+16   # points
+
+
+# Team 10 of 20
+Southampton
+13   # played
+4    # won
+4    # drawn
+5    # lost
+13   # for
+15   # against
+-2   # goal_difference
+16   # points
+
+
+# Team 11 of 20
+Huddersfield
+13    # played
+4     # won
+3     # drawn
+6     # lost
+9     # for
+19    # against
+-10   # goal_difference
+15    # points
+
+
+# Team 12 of 20
+Leicester
+13   # played
+3    # won
+5    # drawn
+5    # lost
+17   # for
+19   # against
+-2   # goal_difference
+14   # points
+
+
+# Team 13 of 20
+Bournemouth
+13   # played
+4    # won
+2    # drawn
+7    # lost
+11   # for
+14   # against
+-3   # goal_difference
+14   # points
+
+
+# Team 14 of 20
+Newcastle
+13   # played
+4    # won
+2    # drawn
+7    # lost
+11   # for
+17   # against
+-6   # goal_difference
+14   # points
+
+
+# Team 15 of 20
+Stoke
+13    # played
+3     # won
+4     # drawn
+6     # lost
+16    # for
+26    # against
+-10   # goal_difference
+13    # points
+
+
+# Team 16 of 20
+Everton
+13    # played
+3     # won
+3     # drawn
+7     # lost
+13    # for
+28    # against
+-15   # goal_difference
+12    # points
+
+
+# Team 17 of 20
+West Brom
+13   # played
+2    # won
+5    # drawn
+6    # lost
+10   # for
+19   # against
+-9   # goal_difference
+11   # points
+
+
+# Team 18 of 20
+West Ham
+13    # played
+2     # won
+4     # drawn
+7     # lost
+12    # for
+26    # against
+-14   # goal_difference
+10    # points
+
+
+# Team 19 of 20
+Swansea
+13   # played
+2    # won
+3    # drawn
+8    # lost
+7    # for
+15   # against
+-8   # goal_difference
+9    # points
+
+
+# Team 20 of 20
+Crystal Palace
+13    # played
+2     # won
+2     # drawn
+9     # lost
+8     # for
+25    # against
+-17   # goal_difference
+8     # points
+</data>
+
+<notes>
+Script to enter a football league
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+20
+</total_loops>
+

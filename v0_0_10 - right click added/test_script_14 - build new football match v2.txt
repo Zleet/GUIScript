@@ -1,0 +1,535 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date
+click day
+pause 0.5
+type data     # day
+pause 0.5
+data increment
+press right
+type data     # month
+pause 0.5
+data increment
+press right
+type data   # year
+pause 0.5
+data increment
+press right
+type data     # hour
+pause 0.5
+data increment
+press right
+type data     # minutes
+pause 0.5
+data increment
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type data # home team
+data increment
+pause 1
+press down
+press enter
+click team_search_box
+press home
+press control
+type a
+press delete
+type data # away team
+data increment
+pause 1
+press down
+press enter
+pause 1
+click teams_ok_button
+click next_button
+
+# select trio as market
+click trio_market
+pause 1
+click next_button
+pause 1
+click next_button
+pause 1
+click finish_button
+
+pause 3
+click create_new_match
+pause 3
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+day 1533, 483
+next_button 1770, 583
+set_bet_ending 1690, 505
+team_search_button 1457, 374
+team_search_box 1429, 301
+teams_ok_button 1665, 576
+trio_market 1410, 271
+finish_button 1840, 580
+create_new_match 1730, 585
+</click_locations>
+
+<data>
+# Match #31
+27            # day
+01            # month
+2018          # year (4 digits)
+14            # hour
+30            # minutes
+Bayern Munich # home team
+Hoffenheim    # away team
+
+# Match #32
+27       # day
+01       # month
+2018     # year (4 digits)
+14       # hour
+30       # minutes
+Dortmund # home team
+Freiburg # away team
+
+# Match #33
+27       # day
+01       # month
+2018     # year (4 digits)
+14       # hour
+30       # minutes
+FC Koln  # home team
+Augsburg # away team
+
+# Match #34
+27         # day
+01         # month
+2018       # year (4 digits)
+14         # hour
+30         # minutes
+RB Leipzig # home team
+Hamburg    # away team
+
+# Match #35
+27        # day
+01        # month
+2018      # year (4 digits)
+14        # hour
+30        # minutes
+Stuttgart # home team
+Schalke   # away team
+
+# Match #36
+27            # day
+01            # month
+2018          # year (4 digits)
+17            # hour
+30            # minutes
+Werder Bremen # home team
+Hertha Berlin # away team
+
+# Match #37
+28               # day
+01               # month
+2018             # year (4 digits)
+14               # hour
+30               # minutes
+Bayer Leverkusen # home team
+Mainz            # away team
+
+# Match #38
+28        # day
+01        # month
+2018      # year (4 digits)
+17        # hour
+00        # minutes
+Hannover  # home team
+Wolfsburg # away team
+
+# Match #39
+27          # day
+01          # month
+2018        # year (4 digits)
+16          # hour
+00          # minutes
+PSG         # home team
+Montpellier # away team
+
+# Match #40
+27     # day
+01     # month
+2018   # year (4 digits)
+19     # hour
+00     # minutes
+Angers # home team
+Amiens # away team
+
+# Match #41
+27       # day
+01       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Guingamp # home team
+Nantes   # away team
+
+# Match #42
+27   # day
+01   # month
+2018 # year (4 digits)
+19   # hour
+00   # minutes
+Metz # home team
+Nice # away team
+
+# Match #43
+27         # day
+01         # month
+2018       # year (4 digits)
+19         # hour
+00         # minutes
+St Etienne # home team
+Caen       # away team
+
+# Match #44
+27       # day
+01       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Toulouse # home team
+Troyes   # away team
+
+# Match #45
+28         # day
+01         # month
+2018       # year (4 digits)
+14         # hour
+00         # minutes
+Lille      # home team
+Strasbourg # away team
+
+# Match #46
+28       # day
+01       # month
+2018     # year (4 digits)
+16       # hour
+00       # minutes
+Bordeaux # home team
+Lyon     # away team
+
+# Match #47
+28        # day
+01        # month
+2018      # year (4 digits)
+20        # hour
+00        # minutes
+Marseille # home team
+Monaco    # away team
+
+# Match #48
+27        # day
+01        # month
+2018      # year (4 digits)
+17        # hour
+30        # minutes
+Groningen # home team
+Heracles  # away team
+
+# Match #49
+27     # day
+01     # month
+2018   # year (4 digits)
+18     # hour
+45     # minutes
+Twente # home team
+PSV    # away team
+
+# Match #50
+27      # day
+01      # month
+2018    # year (4 digits)
+18      # hour
+45      # minutes
+Zwolle  # home team
+Vitesse # away team
+
+# Match #51
+27    # day
+01    # month
+2018  # year (4 digits)
+19    # hour
+45    # minutes
+Breda # home team
+Venlo # away team
+
+# Match #52
+28      # day
+01      # month
+2018    # year (4 digits)
+11      # hour
+30      # minutes
+Utrecht # home team
+Ajax    # away team
+
+# Match #53
+28        # day
+01        # month
+2018      # year (4 digits)
+13        # hour
+30        # minutes
+Feyenoord # home team
+Den Haag  # away team
+
+# Match #54
+28        # day
+01        # month
+2018      # year (4 digits)
+13        # hour
+30        # minutes
+Roda      # home team
+Excelsior # away team
+
+# Match #55
+28         # day
+01         # month
+2018       # year (4 digits)
+15         # hour
+45         # minutes
+Willem II  # home team
+AZ Alkmaar # away team
+
+# Match #56
+27        # day
+01        # month
+2018      # year (4 digits)
+17        # hour
+00        # minutes
+Charleroi # home team
+Antwerp   # away team
+
+# Match #57
+27       # day
+01       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Kortrijk # home team
+Eupen    # away team
+
+# Match #58
+27               # day
+01               # month
+2018             # year (4 digits)
+19               # hour
+00               # minutes
+Waasland-Beveren # home team
+Waregem          # away team
+
+# Match #59
+27          # day
+01          # month
+2018        # year (4 digits)
+19          # hour
+30          # minutes
+Genk        # home team
+St. Truiden # away team
+
+# Match #60
+28             # day
+01             # month
+2018           # year (4 digits)
+13             # hour
+30             # minutes
+Gent           # home team
+Club Brugge KV # away team
+
+# Match #61
+28         # day
+01         # month
+2018       # year (4 digits)
+17         # hour
+00         # minutes
+St. Liege  # home team
+Anderlecht # away team
+
+# Match #62
+28       # day
+01       # month
+2018     # year (4 digits)
+19       # hour
+00       # minutes
+Oostende # home team
+Lokeren  # away team
+
+# Match #63
+27         # day
+01         # month
+2018       # year (4 digits)
+10         # hour
+30         # minutes
+Alanyaspor # home team
+Bursaspor  # away team
+
+# Match #64
+27          # day
+01          # month
+2018        # year (4 digits)
+13          # hour
+00          # minutes
+Goztepe     # home team
+Kayserispor # away team
+
+# Match #65
+27          # day
+01          # month
+2018        # year (4 digits)
+16          # hour
+00          # minutes
+Galatasaray # home team
+Osmanlispor # away team
+
+# Match #66
+28             # day
+01             # month
+2018           # year (4 digits)
+10             # hour
+30             # minutes
+Genclerbirligi # home team
+Konyaspor      # away team
+
+# Match #67
+28               # day
+01               # month
+2018             # year (4 digits)
+10               # hour
+30               # minutes
+Yeni Malatyaspor # home team
+Sivasspor        # away team
+
+# Match #68
+28                   # day
+01                   # month
+2018                 # year (4 digits)
+13                   # hour
+00                   # minutes
+Akhisar Genclik Spor # home team
+Antalyaspor          # away team
+
+# Match #69
+28          # day
+01          # month
+2018        # year (4 digits)
+16          # hour
+00          # minutes
+Trabzonspor # home team
+Fenerbahce  # away team
+
+# Match #70
+27           # day
+01           # month
+2018         # year (4 digits)
+13           # hour
+00           # minutes
+Kerkyra      # home team
+Platanias FC # away team
+
+# Match #71
+27            # day
+01            # month
+2018          # year (4 digits)
+15            # hour
+15            # minutes
+Smyrnis       # home team
+Panathinaikos # away team
+
+# Match #72
+27            # day
+01            # month
+2018          # year (4 digits)
+17            # hour
+30            # minutes
+AEK Athens FC # home team
+Lamia         # away team
+
+# Match #73
+28          # day
+01          # month
+2018        # year (4 digits)
+13          # hour
+00          # minutes
+Panetolikos # home team
+PAOK        # away team
+
+# Match #74
+28          # day
+01          # month
+2018        # year (4 digits)
+15          # hour
+15          # minutes
+Atromitos   # home team
+AEL Larissa # away team
+
+# Match #75
+28        # day
+01        # month
+2018      # year (4 digits)
+15        # hour
+15        # minutes
+Panionios # home team
+Giannina  # away team
+
+# Match #76
+28         # day
+01         # month
+2018       # year (4 digits)
+15         # hour
+15         # minutes
+Xanthi FC  # home team
+Levadiakos # away team
+
+# Match #77
+28                 # day
+01                 # month
+2018               # year (4 digits)
+17                 # hour
+30                 # minutes
+Asteras Tripolis   # home team
+Olympiakos Piraeus # away team
+</data>
+
+<notes>
+Script to build a new football match (trio)
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+5
+</total_loops>
+

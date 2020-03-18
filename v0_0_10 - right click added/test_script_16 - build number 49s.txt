@@ -1,0 +1,2270 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+click notepad_window
+pause 1
+</pre_loop>
+
+<main_loop>
+click new_button
+pause 3
+click actual_start
+pause 1
+press right
+pause 1
+
+# enter day
+type data
+data increment
+pause 1
+press right
+pause 1
+
+# enter month
+type data
+data increment
+pause 1
+press right
+pause 1
+
+# enter year
+type 2020
+pause 1
+press right
+pause 1
+
+# enter hour
+type data
+data increment
+pause 1
+press right
+
+# enter minute
+type data
+data increment
+pause 1
+press right
+
+click save_button
+pause 1
+
+# fix name
+click name_text_box
+press control
+type a
+press delete
+pause 1
+type data
+data increment
+pause 1
+click save_button
+pause 1
+
+# create first submarket
+click new_sub_market
+pause 1
+click market_type
+pause 1
+press down
+pause 1
+press enter
+pause 1
+click off_time
+pause 1
+# move to hour
+press right
+pause 1
+press right
+pause 1
+press right
+pause 1
+press right
+pause 1
+type 12
+
+click ew_dropdown
+pause 1
+press up
+pause 1
+press enter
+pause 1
+click save_button
+pause 1
+
+# create second submarket
+click new_button
+pause 1
+click market_type
+pause 1
+press down
+pause 1
+press down
+pause 1
+press enter
+pause 1
+click off_time
+pause 1
+click ew_dropdown
+pause 1
+press up
+pause 1
+press enter
+pause 1
+click save_button
+pause 3
+
+# return to top market level
+click top_level_market
+pause 2
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+new_button 1608, 104
+actual_start 1294, 315
+save_button 1440, 103
+name_text_box 1287, 216
+top_level_market 954, 235
+new_sub_market 1775, 102
+market_type 1557, 189
+off_time 1513, 306
+ew_dropdown 1333, 482
+</click_locations>
+
+<data>
+16     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+17     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+18     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+19     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+20     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+21     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+22     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+23     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+24     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+25     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+26     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+27     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+28     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+29     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+30     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+31     	# day
+01     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+01     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+02     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+03     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+04     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+05     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+06     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+07     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+08     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+09     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+10     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+11     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+12     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+13     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+14     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+15     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+16     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+17     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+18     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+19     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+20     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+21     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+22     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+23     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+24     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+25     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+26     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+27     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+28     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+29     	# day
+02     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+01     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+02     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+03     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+04     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+05     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+06     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+07     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+08     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+09     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+10     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+11     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+12     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+13     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+14     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+15     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+16     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+17     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+18     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+19     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+20     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+21     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+22     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+23     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+24     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+25     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+26     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+27     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+28     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+29     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+30     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+31     	# day
+03     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+01     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+02     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+03     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+04     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+05     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+06     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+07     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+08     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+09     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+10     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+11     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+12     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+13     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+14     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+15     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+16     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+17     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+18     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+19     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+20     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+21     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+22     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+23     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+24     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+25     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+26     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+27     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+28     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+29     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+30     	# day
+04     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+01     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+02     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+03     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+04     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+05     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+06     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+07     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+08     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+09     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+10     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+11     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+12     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+13     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+14     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+15     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+16     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+17     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+18     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+19     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+20     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+21     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+22     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+23     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+24     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+25     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+26     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+27     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+28     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+29     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+30     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+31     	# day
+05     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+01     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+02     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+03     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+04     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+05     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+06     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+07     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+08     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+09     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+10     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+11     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+12     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+13     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+14     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+15     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+16     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+17     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+18     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+19     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+20     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+21     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+22     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+23     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+24     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+25     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+26     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+27     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+28     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+29     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+30     	# day
+06     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+01     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+02     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+03     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+04     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+05     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+06     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+07     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+08     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+09     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+10     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+11     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+12     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+13     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+14     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+15     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+16     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+17     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+18     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+19     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+20     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+21     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+22     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+23     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+24     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+25     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+26     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+27     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+28     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+29     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+30     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+31     	# day
+07     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+01     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+02     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+03     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+04     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+05     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+06     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+07     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+08     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+09     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+10     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+11     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+12     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+13     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+14     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+15     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+16     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+17     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+18     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+19     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+20     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+21     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+22     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+23     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+24     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+25     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+26     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+27     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+28     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+29     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+30     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+31     	# day
+08     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+01     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+02     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+03     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+04     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+05     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+06     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+07     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+08     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+09     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+10     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+11     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+12     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+13     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+14     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+15     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+16     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+17     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+18     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+19     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+20     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+21     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+22     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+23     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+24     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+25     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+26     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+27     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+28     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+29     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+30     	# day
+09     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+01     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+02     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+03     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+04     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+05     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+06     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+07     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+08     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+09     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+10     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+11     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+12     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+13     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+14     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+15     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+16     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+17     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+18     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+19     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+20     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+21     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+22     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+23     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+24     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+25     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+26     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+27     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+28     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+29     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+30     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+31     	# day
+10     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+01     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+02     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+03     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+04     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+05     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+06     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+07     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+08     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+09     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+10     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+11     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+12     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+13     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+14     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+15     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+16     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+17     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+18     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+19     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+20     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+21     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+22     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+23     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+24     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+25     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+26     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+27     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+28     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+29     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+30     	# day
+11     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+01     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+02     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+03     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+04     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+05     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+06     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+07     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+08     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+09     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+10     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+11     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+12     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+13     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+14     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+15     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+16     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+17     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+18     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+19     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+20     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+21     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+22     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+23     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+24     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+# ============================
+25     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Fri 49s # top market title
+# ============================
+26     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sat 49s # top market title
+# ============================
+27     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Sun 49s # top market title
+# ============================
+28     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Mon 49s # top market title
+# ============================
+29     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Tues 49s # top market title
+# ============================
+30     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Wed 49s # top market title
+# ============================
+31     	# day
+12     	# month
+16     	# hour
+49     	# minute
+Thurs 49s # top market title
+</data>
+
+<notes>
+Script to build Numbers 49s
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+100
+</total_loops>
+

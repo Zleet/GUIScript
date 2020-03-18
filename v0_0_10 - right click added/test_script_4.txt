@@ -1,0 +1,43 @@
+<pre_loop>
+
+</pre_loop>
+
+<main_loop>
+click 2767, 408
+pause 1
+type 'test'
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+top_left_cell 1065, 757
+text_window 2767, 408
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Test script written on Monday 17th July 2017
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+10
+</total_loops>
+

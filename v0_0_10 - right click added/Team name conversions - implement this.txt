@@ -1,0 +1,18 @@
+// =======================================
+// Team name conversions
+// Implement these conversions to improve
+// GUIScript match-building performance...
+// =======================================
+// Not in system,In system
+QPR,Q.P.R.
+Bristol Rovers,Bristol Rvrs
+
+
+
+
+
+
+
+
+
+

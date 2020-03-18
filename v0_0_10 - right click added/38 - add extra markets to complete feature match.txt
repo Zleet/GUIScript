@@ -1,0 +1,464 @@
+<pre_loop>
+click notepad_window
+pause 1
+press up
+pause 1
+</pre_loop>
+
+<main_loop>
+# add result @ 30 minutes
+click new_market
+pause 1
+click market_type_box
+pause 1
+type result
+pause 1
+press space
+pause 1
+press shift
+pause 1
+type ' 
+pause 1
+press space
+pause 1
+type 30 minutes
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add half time result
+click new_market
+pause 1
+click market_type_box
+pause 1
+type half time result
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add to win both halves
+click new_market
+pause 1
+click market_type_box
+pause 1
+type to win both halves
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add score in both halves
+click new_market
+pause 1
+click market_type_box
+pause 1
+type score in both halves
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add goal scored in each half
+click new_market
+pause 1
+click market_type_box
+pause 1
+type goal scored in each half
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add highest scoring half
+click new_market
+pause 1
+click market_type_box
+pause 1
+type highest scoring half
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add draw no bet
+click new_market
+pause 1
+click market_type_box
+pause 1
+type draw no bet
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add double chance
+click new_market
+pause 1
+click market_type_box
+pause 1
+type double chance
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add team to score first
+click new_market
+pause 1
+click market_type_box
+pause 1
+type team to score last
+pause 1
+press down
+pause 1
+press enter
+pause 1
+press up
+pause 1
+sub1
+
+# add team to score last
+click new_market
+pause 1
+click market_type_box
+pause 1
+type team to score last
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add time of 1st goal
+click new_market
+pause 1
+click market_type_box
+pause 1
+type time of 1st goal
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# ======
+
+# add time of last goal
+click new_market
+pause 1
+click market_type_box
+pause 1
+type time of last goal
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add to keep a clean sheet
+click new_market
+pause 1
+click market_type_box
+pause 1
+type to keep a clean sheet
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add to win from behind
+click new_market
+pause 1
+click market_type_box
+pause 1
+type to win from behind
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add alternative handicap 1
+click new_market
+pause 1
+click market_type_box
+pause 1
+type alternative handicap 1
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add alternative handicap 2
+click new_market
+pause 1
+click market_type_box
+pause 1
+type alternative handicap 2
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# ======================
+
+# add total corners
+click new_market
+pause 1
+click market_type_box
+pause 1
+type total corners
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add corner handicap
+click new_market
+pause 1
+click market_type_box
+pause 1
+type corner handicap
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add total booking pts
+click new_market
+pause 1
+click market_type_box
+pause 1
+type total booking pts
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add score a penalty
+click new_market
+pause 1
+click market_type_box
+pause 1
+type score a penalty
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# ======================
+# add first goalscorer
+click new_market
+pause 1
+click market_type_box
+pause 1
+type first goalscorer
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+pause 10
+
+# add last goalscorer
+click new_market
+pause 1
+click market_type_box
+pause 1
+type last goalscorer
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+pause 10
+
+# add score anytime
+click new_market
+pause 1
+click market_type_box
+pause 1
+type score anytime
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+pause 10
+
+# =======================
+# add player to score twice
+click new_market
+pause 1
+click market_type_box
+pause 1
+type player to score twice
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add to score a hat-trick
+click new_market
+pause 1
+click market_type_box
+pause 1
+type to score a hat-trick
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add first goal wincasts
+click new_market
+pause 1
+click market_type_box
+pause 1
+type first goal wincasts
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add anytime wincasts
+click new_market
+pause 1
+click market_type_box
+pause 1
+type anytime wincasts
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add to qualify
+click new_market
+pause 1
+click market_type_box
+pause 1
+type to qualify
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add win in extra time
+click new_market
+pause 1
+click market_type_box
+pause 1
+type win in extra time
+pause 1
+press down
+pause 1
+press enter
+pause 1
+sub1
+
+# add win on penalties
+click new_market
+pause 1
+click market_type_box
+pause 1
+type win on penalties
+pause 1
+press down
+pause 1
+sub1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 180, 176
+new_market 1677, 91
+market_type_box 1360, 180
+off_time 1545, 292
+ew_dropdown 1364, 469
+save_button 1503, 91
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to add all the extra markets to a feature match previously built as a trio
+</notes>
+
+<subroutine_1>
+click off_time
+pause 1
+click ew_dropdown
+pause 1
+press up
+pause 1
+press enter
+pause 1
+click save_button
+pause 1
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

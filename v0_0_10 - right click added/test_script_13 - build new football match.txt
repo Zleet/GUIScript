@@ -1,0 +1,97 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter date 25/10/2017 23:59
+click actual_start_tick
+press right
+type 25     # day
+press right
+type 10     # month
+press right
+type 2017   # year
+press right
+type 23     # hour
+press right
+type 59     # minutes
+press right
+click set_bet_ending
+click next_button
+
+# enter teams
+click team_search_button
+click team_search_box
+type liverpool # home team
+pause 1
+press down
+press enter
+click team_search_box
+press home
+press control
+type a
+press delete
+type man utd # away team
+pause 1
+press down
+press enter
+pause 1
+click teams_ok_button
+click next_button
+
+# select trio as market
+click trio_market
+pause 1
+click next_button
+pause 1
+click next_button
+pause 1
+click finish_button
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 321, 471
+actual_start_tick 1464, 550
+next_button 1719, 645
+set_bet_ending 1637, 567
+team_search_button 1400, 445
+team_search_box 1365, 378
+teams_ok_button 1608, 642
+trio_market 1353, 333
+finish_button 1790, 649
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to build a new football match
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

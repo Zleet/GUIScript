@@ -1,0 +1,55 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+click notepad_window
+pause 1
+</pre_loop>
+
+<main_loop>
+click next_button
+pause 1
+click actions_menu
+pause 1
+click declare_and_open
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+next_button 1356, 107
+actions_menu 895, 77
+declare_and_open 953, 212
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to declare and open lots of markets from the top level
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+4
+</total_loops>
+

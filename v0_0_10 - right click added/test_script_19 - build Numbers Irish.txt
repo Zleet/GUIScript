@@ -1,0 +1,1020 @@
+<pre_loop>
+click notepad
+pause 1
+click notepad
+pause 1
+</pre_loop>
+
+<main_loop>
+click new_top_event
+pause 1
+click actual_start
+pause 1
+
+# enter month
+press right
+pause 1
+press right
+pause 1
+type data
+pause 1
+data increment
+
+# enter day
+press left
+pause 1
+type data
+pause 1
+
+# enter year
+press right
+data increment
+pause 1
+press right
+pause 1
+type data
+
+# enter day
+press right
+data increment
+pause 1
+type data
+
+# enter day
+press right
+data increment
+pause 1
+type data
+
+click save
+pause 1
+data increment
+click name_box
+pause 1
+type data
+pause 1
+data increment
+press space
+pause 1
+click save
+pause 2
+
+# build main draw1
+click new_market
+pause 1
+click market_type
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press enter
+pause 0.5
+click off_time
+pause 0.5
+click ew_dropdown
+pause 0.5
+press up
+pause 0.5
+press enter
+pause 0.5
+click save
+pause 2
+
+# build 2nd draw1
+click new_market_2
+pause 1
+click market_type
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press enter
+pause 0.5
+click off_time
+pause 0.5
+click ew_dropdown
+pause 0.5
+press up
+pause 0.5
+press enter
+pause 0.5
+click save
+pause 2
+
+# build 3rd draw1
+click new_market_2
+pause 1
+click market_type
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press enter
+pause 0.5
+click off_time
+pause 0.5
+click ew_dropdown
+pause 0.5
+press up
+pause 0.5
+press enter
+pause 0.5
+click save
+pause 2
+
+click top_level_market
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+new_top_event 1588, 91
+actual_start 1283, 298
+save 1428, 93
+name_box 1277, 203
+new_market 1761, 93
+market_type 1548, 177
+off_time 1503, 294
+ew_dropdown 1325, 468
+new_market_2 1609, 92
+top_level_market 947, 223
+</click_locations>
+
+<data>
+# Wed data
+01		# month
+01		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+01		# month
+04		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+01		# month
+08		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+01		# month
+11		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+01		# month
+15		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+01		# month
+18		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+01		# month
+22		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+01		# month
+25		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+01		# month
+29		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+02		# month
+01		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+02		# month
+05		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+02		# month
+08		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+02		# month
+12		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+02		# month
+15		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+02		# month
+19		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+02		# month
+22		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+02		# month
+26		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+02		# month
+29		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+03		# month
+04		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+03		# month
+07		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+03		# month
+11		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+03		# month
+14		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+03		# month
+18		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+03		# month
+21		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+03		# month
+25		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+03		# month
+28		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+04		# month
+01		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+04		# month
+04		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+04		# month
+08		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+04		# month
+11		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+04		# month
+15		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+04		# month
+18		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+04		# month
+22		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+04		# month
+25		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+04		# month
+29		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+05		# month
+02		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+05		# month
+06		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+05		# month
+09		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+05		# month
+13		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+05		# month
+16		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+05		# month
+20		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+05		# month
+23		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+05		# month
+27		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+05		# month
+30		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+06		# month
+03		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+06		# month
+06		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+06		# month
+10		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+06		# month
+13		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+06		# month
+17		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+06		# month
+20		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+06		# month
+24		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+06		# month
+27		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+07		# month
+01		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+07		# month
+04		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+07		# month
+08		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+07		# month
+11		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+07		# month
+15		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+07		# month
+18		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+07		# month
+22		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+07		# month
+25		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+07		# month
+29		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+08		# month
+01		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+08		# month
+05		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+08		# month
+08		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+08		# month
+12		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+08		# month
+15		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+08		# month
+19		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+08		# month
+22		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+08		# month
+26		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+08		# month
+29		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+09		# month
+02		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+09		# month
+05		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+09		# month
+09		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+09		# month
+12		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+09		# month
+16		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+09		# month
+19		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+09		# month
+23		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+09		# month
+26		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+09		# month
+30		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+10		# month
+03		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+10		# month
+07		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+10		# month
+10		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+10		# month
+14		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+10		# month
+17		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+10		# month
+21		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+10		# month
+24		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+10		# month
+28		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+10		# month
+31		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+11		# month
+04		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+11		# month
+07		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+11		# month
+11		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+11		# month
+14		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+11		# month
+18		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+11		# month
+21		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+11		# month
+25		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+11		# month
+28		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+12		# month
+02		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+12		# month
+05		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+12		# month
+09		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+12		# month
+12		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+12		# month
+16		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+12		# month
+19		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Wed data
+12		# month
+23		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+# Sat data
+12		# month
+26		# day
+2020		# year
+19		# hour
+45		# minute
+Irish Lotto	# name prefix
+# ================
+</data>
+
+<notes>
+Script to build Numbers Irish
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+40
+</total_loops>
+

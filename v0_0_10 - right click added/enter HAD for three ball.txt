@@ -1,0 +1,73 @@
+<pre_loop>
+click notepad_window
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# set HAD type for a golf 3 ball
+click had_dropdown
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press enter
+pause 0.5
+click save_button
+pause 1
+
+# type HAD in cells
+click top_cell
+pause 2
+type H
+pause 0.5
+press down
+pause 0.5
+type A
+pause 0.5
+press down
+pause 0.5
+type D
+pause 0.5
+press up
+pause 0.5
+click save_button
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+had_dropdown 1648, 527
+save_button 1470, 108
+top_cell 1454, 777
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Enter HAD for three ball
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

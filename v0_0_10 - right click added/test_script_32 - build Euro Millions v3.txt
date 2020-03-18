@@ -1,0 +1,766 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+click notepad_window
+pause 1
+</pre_loop>
+
+<main_loop>
+click new_button
+pause 1
+click actual_start
+pause 1
+
+# enter day
+press right
+pause 1
+type data
+data increment
+pause 1
+
+# enter month
+press right
+pause 1
+type data
+data increment
+pause 1
+
+# enter year
+press right
+pause 1
+type 2019
+pause 1
+
+# enter hour
+press right
+pause 1
+type data
+data increment
+pause 1
+
+# enter minute
+press right
+pause 1
+type data
+data increment
+pause 1
+
+click save_button
+pause 1
+
+# fix name
+click name_text_box
+pause 1
+press control
+pause 1
+type a
+pause 1
+press delete
+pause 1
+type data
+data increment
+pause 1
+
+click save_button
+pause 1
+
+click new_sub_market
+pause 1
+click market_type
+pause 1
+press down
+pause 1
+press down
+pause 1
+press down
+pause 1
+press down
+pause 1
+press enter
+
+pause 1
+click off_time
+
+click ew_dropdown
+pause 1
+press up
+pause 1
+press enter
+pause 1
+click save_button
+pause 1
+
+# move to top market level
+click top_level_market
+pause 2
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+new_button 1638, 97
+actual_start 1314, 305
+save_button 1473, 100
+new_sub_market 1804, 96
+market_type 1579, 182
+name_text_box 1333, 207
+off_time 1533, 296
+ew_dropdown 1353, 471
+top_level_market 940, 242
+</click_locations>
+
+<data>
+02            # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+05    	      # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+09            # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+12    	      # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+16            # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+19    	      # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+23            # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+26    	      # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+30            # day
+01     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+02    	      # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+06            # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+09    	      # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+13            # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+16    	      # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+20            # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+23    	      # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+27            # day
+02     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+02    	      # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+06            # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+09    	      # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+13            # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+16    	      # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+20            # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+23    	      # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+27            # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+30    	      # day
+03     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+03            # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+06    	      # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+10            # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+13    	      # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+17            # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+20    	      # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+24            # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+27    	      # day
+04     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+01            # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+04    	      # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+08            # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+11    	      # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+15            # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+18    	      # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+22            # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+25    	      # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+29            # day
+05     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+01    	      # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+05            # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+08    	      # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+12            # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+15    	      # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+19            # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+22    	      # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+26            # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+29    	      # day
+06     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+03            # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+06    	      # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+10            # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+13    	      # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+17            # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+20    	      # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+24            # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+27    	      # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+31            # day
+07     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+03    	      # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+07            # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+10    	      # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+14            # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+17    	      # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+21            # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+24    	      # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+28            # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+31    	      # day
+08     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+04            # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+07    	      # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+11            # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+14    	      # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+18            # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+21    	      # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+25            # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+28    	      # day
+09     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+02            # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+05    	      # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+09            # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+12    	      # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+16            # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+19    	      # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+23            # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+26    	      # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+30            # day
+10     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+02    	      # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+06            # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+09    	      # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+13            # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+16    	      # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+20            # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+23    	      # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+27            # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+30    	      # day
+11     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+04            # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+07    	      # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+11            # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+14    	      # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+18            # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+21    	      # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+25            # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Wed # market title
+# ============================
+28    	      # day
+12     	      # month
+19            # hour
+45     	      # minute
+Lucky 21s Sat # market title
+# ============================
+</data>
+
+<notes>
+Script to build Euro Millions
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+50
+</total_loops>
+

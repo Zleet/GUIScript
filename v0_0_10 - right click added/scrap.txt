@@ -1,0 +1,59 @@
+<pre_loop>
+click text_window
+</pre_loop>
+
+<main_loop>
+click month
+pause 1
+click month
+pause 1
+press down
+pause 1
+click save_button
+pause 1
+click down_clock_button
+pause 1
+click down_clock_button
+pause 1
+click save_button
+pause 1
+click next_market
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+text_window 100, 100
+month 1337, 306
+save_button 1478, 98
+down_clock_button 1431, 304
+next_market 1377, 97
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to enter teletext names
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+11
+</total_loops>
+

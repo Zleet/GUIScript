@@ -1,0 +1,67 @@
+<pre_loop>
+click 100, 100
+pause 1
+</pre_loop>
+
+<main_loop>
+# enter first match
+click match_1_match_betting
+pause 1
+click top_price_cell
+pause 1
+click fb_meister_all
+pause 55
+
+# enter second match
+click match_2_match_betting
+pause 1
+click top_price_cell
+pause 1
+click fb_meister_all
+pause 55
+
+# enter third match
+click match_3_match_betting
+pause 1
+click top_price_cell
+pause 1
+click fb_meister_all
+pause 55
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+match_1_match_betting 921, 228
+match_2_match_betting 905, 495
+match_3_match_betting 916, 762
+top_price_cell 1580, 785
+fb_meister_all 2047, 387
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to enter the betting for three trio matches
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

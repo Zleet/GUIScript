@@ -1,0 +1,829 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+click notepad_window
+pause 1
+</pre_loop>
+
+<main_loop>
+click new_button
+pause 0.5
+click actual_start
+pause 0.5
+press right
+pause 0.5
+
+# enter day
+type data
+pause 0.5
+
+# enter month
+press right
+data increment
+pause 0.5
+type data
+pause 0.5
+data increment
+pause 0.5
+
+# enter year
+press right
+pause 0.5
+type 2020
+pause 0.5
+
+# move to hour
+press right
+pause 0.5
+
+# enter hour
+type data
+data increment
+pause 0.5
+
+# enter minutes
+press right
+pause 0.5
+type data
+pause 0.5
+
+press save_button
+
+# type name
+click name_text_box
+pause 0.5
+press left
+pause 0.5
+data increment
+pause 0.5
+type data
+pause 0.5
+press space
+pause 0.5
+click save_button
+pause 0.5
+data increment
+pause 0.5
+
+# create first market
+click new_market_button
+pause 0.5
+click market_type_menu
+pause 0.5
+press down
+pause 0.5
+press enter
+pause 0.5
+click off_time
+pause 0.5
+click ew_dropdown
+pause 0.5
+press up
+pause 0.5
+press enter
+pause 0.5
+click save_button
+pause 0.5
+
+# create second market
+click new_sub_market
+pause 0.5
+click market_type_menu
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press enter
+pause 0.5
+click off_time
+pause 0.5
+click ew_dropdown
+pause 0.5
+press up
+pause 0.5
+press enter
+pause 0.5
+click save_button
+
+# click a top level
+# market to change the
+# window content to
+# "build top level market"
+pause 0.5
+click top_level_market
+pause 2
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+new_button 1613, 101
+actual_start 1300, 309
+save_button 1445, 98
+name_text_box 1291, 211
+new_market_button 1776, 99
+market_type_menu 1561, 185
+off_time 1517, 302
+ew_dropdown 1338, 477
+new_sub_market 1628, 99
+top_level_market 947, 229
+</click_locations>
+
+<data>
+12     # day
+09     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+13     # day
+09     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+14     # day
+09     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+15     # day
+09     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+16     # day
+09     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+17     # day
+09     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+18     # day
+09     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+19     # day
+09     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+20     # day
+09     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+21     # day
+09     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+22     # day
+09     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+23     # day
+09     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+24     # day
+09     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+25     # day
+09     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+26     # day
+09     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+27     # day
+09     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+28     # day
+09     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+29     # day
+09     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+30     # day
+09     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+01     # day
+10     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+02     # day
+10     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+03     # day
+10     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+04     # day
+10     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+05     # day
+10     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+06     # day
+10     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+07     # day
+10     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+08     # day
+10     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+09     # day
+10     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+10     # day
+10     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+11     # day
+10     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+12     # day
+10     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+13     # day
+10     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+14     # day
+10     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+15     # day
+10     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+16     # day
+10     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+17     # day
+10     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+18     # day
+10     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+19     # day
+10     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+20     # day
+10     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+21     # day
+10     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+22     # day
+10     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+23     # day
+10     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+24     # day
+10     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+25     # day
+10     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+26     # day
+10     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+27     # day
+10     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+28     # day
+10     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+29     # day
+10     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+30     # day
+10     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+31     # day
+10     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+01     # day
+11     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+02     # day
+11     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+03     # day
+11     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+04     # day
+11     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+05     # day
+11     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+06     # day
+11     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+07     # day
+11     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+08     # day
+11     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+09     # day
+11     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+10     # day
+11     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+11     # day
+11     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+12     # day
+11     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+13     # day
+11     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+14     # day
+11     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+15     # day
+11     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+16     # day
+11     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+17     # day
+11     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+18     # day
+11     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+19     # day
+11     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+20     # day
+11     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+21     # day
+11     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+22     # day
+11     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+23     # day
+11     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+24     # day
+11     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+25     # day
+11     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+26     # day
+11     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+27     # day
+11     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+28     # day
+11     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+29     # day
+11     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+30     # day
+11     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+01     # day
+12     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+02     # day
+12     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+03     # day
+12     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+04     # day
+12     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+05     # day
+12     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+06     # day
+12     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+07     # day
+12     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+08     # day
+12     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+09     # day
+12     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+10     # day
+12     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+11     # day
+12     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+12     # day
+12     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+13     # day
+12     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+14     # day
+12     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+15     # day
+12     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+16     # day
+12     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+17     # day
+12     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+18     # day
+12     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+19     # day
+12     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+20     # day
+12     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+21     # day
+12     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+22     # day
+12     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+23     # day
+12     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+24     # day
+12     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+25     # day
+12     # month
+21     # hour
+00     # minutes
+Wed Eve Millions
+#==========================
+26     # day
+12     # month
+21     # hour
+00     # minutes
+Thurs Eve Millions
+#==========================
+27     # day
+12     # month
+21     # hour
+00     # minutes
+Fri Eve Millions
+#==========================
+28     # day
+12     # month
+21     # hour
+00     # minutes
+Sat Eve Millions
+#==========================
+29     # day
+12     # month
+21     # hour
+00     # minutes
+Sun Eve Millions
+#==========================
+30     # day
+12     # month
+21     # hour
+00     # minutes
+Mon Eve Millions
+#==========================
+31     # day
+12     # month
+21     # hour
+00     # minutes
+Tues Eve Millions
+#==========================
+</data>
+
+<notes>
+Script to build Irish Monday Millions
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+90
+</total_loops>
+

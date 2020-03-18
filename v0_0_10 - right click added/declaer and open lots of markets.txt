@@ -1,0 +1,52 @@
+<pre_loop>
+click notepad_window
+pause 1
+</pre_loop>
+
+<main_loop>
+pause 0.5
+click notepad_window
+pause 0.5
+click actions_menu
+pause 0.5
+click open_all_markets
+pause 0.5
+click next_market
+pause 0.5
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+actions_menu 899, 72
+open_all_markets 978, 206
+next_market 1358, 99
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+70
+</total_loops>
+

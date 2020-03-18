@@ -1,0 +1,1124 @@
+<pre_loop>
+
+</pre_loop>
+
+<main_loop>
+# ===========================
+# enter goal before 29th betting
+# move to next match
+click match_1
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_2
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_3
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_4
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_5
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_6
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_7
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_8
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_9
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_10
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_11
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+# ==============================
+# enter goal before 29th betting
+# move to next match
+click match_12
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+
+# move to goal after 75th
+click next_market
+pause 0.5
+click yes_price_cell
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type data
+data increment
+pause 0.5
+press down
+pause 0.5
+type n
+pause 0.5
+press enter
+pause 0.5
+press up
+pause 0.5
+click save_button
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+match_1 950, 227
+match_2 950, 284
+match_3 950, 341
+match_4 950, 398
+match_5 950, 456
+match_6 950, 514
+match_7 950, 568
+match_8 950, 630
+match_9 950, 682
+match_10 950, 740
+match_11 950, 799
+match_12 950, 854
+yes_price_cell 1583, 780
+save_button 1458, 100
+next_market 1368, 98
+</click_locations>
+
+<data>
+# QPR
+# Aston Villa
+17/20
+17/20
+17/20
+17/20
+
+# Middlesbrough
+# Derby
+19/20
+3/4
+19/20
+3/4
+
+# Brighton
+# Wolves
+Evs
+8/11
+Evs
+8/11
+
+# Fulham
+# Bournemouth
+8/11
+Evs
+8/11
+Evs
+
+# Liverpool
+# Cardiff
+4/6
+11/10
+4/6
+11/10
+
+# Southampton
+# Newcastle
+19/20
+3/4
+19/20
+3/4
+
+# Watford
+# Huddersfield
+10/11
+4/5
+10/11
+4/5
+
+# Leicester
+# West Ham
+17/20
+17/20
+17/20
+17/20
+
+# Birmingham
+# Sheff Wed
+17/20
+17/20
+17/20
+17/20
+
+# Bolton
+# Hull City
+19/20
+3/4
+19/20
+3/4
+
+# Bristol City
+# Stoke
+17/20
+17/20
+17/20
+17/20
+
+# Millwall
+# Ipswich
+17/20
+17/20
+17/20
+17/20
+
+# Norwich
+# Brentford
+17/20
+17/20
+17/20
+17/20
+
+# Preston
+# Rotherham
+17/20
+17/20
+17/20
+17/20
+
+# Sheff Utd
+# Wigan
+17/20
+17/20
+17/20
+17/20
+
+# Swansea
+# Reading
+17/20
+17/20
+17/20
+17/20
+
+# West Brom
+# Blackburn
+17/20
+17/20
+17/20
+17/20
+
+# Leeds
+# Nottm Forest
+17/20
+17/20
+17/20
+17/20
+
+# Accrington
+# Portsmouth
+19/20
+3/4
+19/20
+3/4
+
+# AFC Wimbledon
+# Luton
+10/11
+4/5
+10/11
+4/5
+
+# Barnsley
+# Bristol Rovers
+17/20
+17/20
+17/20
+17/20
+
+# Burton
+# Peterborough
+17/20
+17/20
+17/20
+17/20
+
+# Coventry
+# Doncaster
+17/20
+17/20
+17/20
+17/20
+
+# Fleetwood Town
+# Blackpool
+19/20
+3/4
+19/20
+3/4
+
+# Gillingham
+# Bradford City
+17/20
+17/20
+17/20
+17/20
+
+# Oxford Utd
+# Shrewsbury
+19/20
+3/4
+19/20
+3/4
+
+# Rochdale
+# Charlton
+17/20
+17/20
+17/20
+17/20
+
+# Scunthorpe
+# Plymouth
+17/20
+17/20
+17/20
+17/20
+
+# Sunderland
+# Southend
+17/20
+17/20
+17/20
+17/20
+
+# Walsall
+# Wycombe
+17/20
+17/20
+17/20
+17/20
+
+# Cambridge Utd
+# Macclesfield
+17/20
+17/20
+17/20
+17/20
+
+# Carlisle
+# Yeovil
+10/11
+4/5
+10/11
+4/5
+
+# Cheltenham
+# Stevenage
+17/20
+17/20
+17/20
+17/20
+
+# Colchester
+# Lincoln City
+17/20
+17/20
+17/20
+17/20
+
+# Crewe
+# Grimsby Town
+17/20
+17/20
+17/20
+17/20
+
+# Exeter
+# Forest Green
+17/20
+17/20
+17/20
+17/20
+
+# Mansfield
+# MK Dons
+17/20
+17/20
+17/20
+17/20
+
+# Newport
+# Morecambe
+17/20
+17/20
+17/20
+17/20
+
+# Northampton
+# Oldham
+17/20
+17/20
+17/20
+17/20
+
+# Notts County
+# Swindon
+17/20
+17/20
+17/20
+17/20
+
+# Port Vale
+# Bury
+17/20
+17/20
+17/20
+17/20
+
+# Tranmere
+# Crawley Town
+17/20
+17/20
+17/20
+17/20
+
+# Kilmarnock
+# Hamilton
+17/20
+17/20
+17/20
+17/20
+
+# St Johnstone
+# St. Mirren
+10/11
+4/5
+10/11
+4/5
+
+# Alloa
+# Inverness
+17/20
+17/20
+17/20
+17/20
+
+# Dunfermline
+# Dundee Utd
+17/20
+17/20
+17/20
+17/20
+
+# Partick Thistle
+# Ayr
+17/20
+17/20
+17/20
+17/20
+
+# Queen of South
+# Falkirk
+17/20
+17/20
+17/20
+17/20
+
+# Ross County
+# Morton
+4/5
+10/11
+4/5
+10/11
+
+# Airdrieonians
+# Stenhousemuir
+4/5
+10/11
+4/5
+10/11
+
+# Brechin
+# Montrose
+17/20
+17/20
+17/20
+17/20
+
+# Dumbarton
+# East Fife
+17/20
+17/20
+17/20
+17/20
+
+# Forfar Athletic
+# Raith
+4/5
+10/11
+4/5
+10/11
+
+# Stranraer
+# Arbroath
+3/4
+19/20
+3/4
+19/20
+
+# Albion Rovers
+# Queen's Park
+4/5
+10/11
+4/5
+10/11
+
+# Berwick
+# Cowdenbeath
+17/20
+17/20
+17/20
+17/20
+
+# Clyde
+# Peterhead
+17/20
+17/20
+17/20
+17/20
+
+# Elgin City
+# Annan
+4/5
+10/11
+4/5
+10/11
+
+# Stirling
+# Edinburgh City
+17/20
+17/20
+17/20
+17/20
+
+# Ballymena
+# Crusaders
+7/10
+21/20
+7/10
+21/20
+
+# Coleraine
+# Cliftonville
+4/5
+10/11
+4/5
+10/11
+
+# Dungannon
+# Linfield
+3/4
+19/20
+3/4
+19/20
+
+# Glenavon
+# Newry City
+7/10
+21/20
+7/10
+21/20
+
+# Glentoran
+# Ards
+17/20
+17/20
+17/20
+17/20
+
+# Warrenpoint
+# Institute
+3/4
+19/20
+3/4
+19/20
+
+# Burnley
+# Chelsea
+17/20
+17/20
+17/20
+17/20
+
+# C.Palace
+# Arsenal
+3/4
+19/20
+3/4
+19/20
+
+# Man Utd
+# Everton
+17/20
+17/20
+17/20
+17/20
+
+# Aberdeen
+# Rangers
+17/20
+17/20
+17/20
+17/20
+
+# Hearts
+# Celtic
+17/20
+17/20
+17/20
+17/20
+
+# Tottenham
+# Man City
+3/4
+19/20
+3/4
+19/20
+</data>
+
+<notes>
+Script for entering soccer saturday prices
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

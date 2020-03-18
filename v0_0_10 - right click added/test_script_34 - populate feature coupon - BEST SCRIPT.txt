@@ -1,0 +1,200 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# populate a coupon
+click match_betting
+sub1
+click match_handicap
+sub1
+click goal_rush_plus
+sub1
+click total_goals_plus
+sub1
+click half_time_result
+sub1
+click highest_scoring_half
+sub1
+click team_to_score_1st
+sub1
+click draw_no_bet
+sub1
+click both_teams_to_score
+sub2
+click under_over_2p5
+sub2
+click home_cscore
+pause 0.5
+sub3
+pause 0.5
+click away_cscore
+pause 0.5
+sub3
+pause 0.5
+click htft
+pause 0.5
+click select_all
+pause 0.5
+click set_data
+
+# scroll down
+click scroll_down
+pause 0.5
+click scroll_down
+pause 0.5
+click scroll_down
+pause 0.5
+
+# populate 1st goal wincasts
+click 1st_wincasts
+pause 0.5
+click unselect_all
+pause 0.5
+click sort_button
+pause 0.5
+click first_data_item
+pause 0.5
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+pause 0.5
+click set_data
+
+# populate anytime wincasts
+click anytime_wincasts
+pause 0.5
+click unselect_all
+pause 0.5
+click sort_button
+pause 0.5
+click first_data_item
+pause 0.5
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+pause 0.5
+click set_data
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+match_betting 1256, 403
+select_all 1074, 749
+set_data 1075, 692
+match_handicap 1430, 403
+goal_rush_plus 1613, 404
+total_goals_plus 1794, 396
+half_time_result 1256, 538
+highest_scoring_half 1434, 546
+team_to_score_1st 1610, 543
+draw_no_bet 1792, 548
+both_teams_to_score 1617, 687
+under_over_2p5 1780, 680
+third_data_item 860, 734
+home_cscore 1609, 834
+unselect_all 1072, 799
+first_data_item 859, 704
+away_cscore 1627, 907
+htft 1797, 847
+scroll_down 1893, 877
+1st_wincasts 1631, 834
+sort_button 994, 664
+anytime_wincasts 1818, 835
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to populate a football coupon (not the scorer markets)
+</notes>
+
+<subroutine_1>
+pause 0.5
+click select_all
+pause 0.5
+click set_data
+</subroutine_1>
+
+<subroutine_2>
+pause 0.5
+click select_all
+pause 0.5
+click third_data_item
+pause 0.5
+press space
+pause 0.5
+click set_data
+</subroutine_2>
+
+<subroutine_3>
+click unselect_all
+pause 0.5
+click first_data_item
+pause 0.5
+click first_data_item
+pause 0.5
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+click set_data
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

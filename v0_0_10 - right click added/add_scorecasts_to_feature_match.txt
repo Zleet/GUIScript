@@ -1,0 +1,96 @@
+<pre_loop>
+pause 2
+</pre_loop>
+
+<main_loop>
+# add scorecasts to feature matches
+
+# add 1st scorer scorecasts
+click scorecast_button
+pause 1
+click scorecast_dropdown
+pause 1
+press enter
+pause 1
+click apply_button
+pause 1
+click ok_button
+pause 1
+
+# add last scorer scorecasts
+click scorecast_button
+pause 1
+click scorecast_dropdown
+pause 1
+press down
+pause 1
+press enter
+pause 1
+click dropdown_text
+pause 1
+click apply_button
+pause 1
+click ok_button
+pause 1
+
+# add anytime scorer scorecasts
+click scorecast_button
+pause 1
+click scorecast_dropdown
+pause 1
+press down
+pause 1
+press down
+pause 1
+press enter
+pause 1
+click dropdown_text
+pause 1
+click apply_button
+pause 1
+click ok_button
+pause 2
+
+# move to next match
+click next_event_button
+pause 2
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+scorecast_button 1883, 100
+scorecast_dropdown 1588, 379
+dropdown_text 1520, 379
+apply_button 1573, 726
+ok_button 1417, 725
+next_event_button 1361, 99
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to enter 3 scorecast markets for a feature match
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+40
+</total_loops>
+

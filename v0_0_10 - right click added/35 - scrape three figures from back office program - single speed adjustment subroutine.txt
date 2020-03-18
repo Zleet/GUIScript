@@ -1,0 +1,79 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# script to scrape office halftime figures
+click shop_dropdown
+sub1
+press down
+sub1
+press enter
+sub1
+click business_day_dropdown
+sub1
+press down
+sub1
+press enter
+sub1
+right_click top_right_sheet
+sub1
+click sheet_menu
+sub1
+click notepad_window
+sub1
+press control
+sub1
+press end
+sub1
+press enter
+sub1
+press enter
+sub1
+press control
+sub1
+type v
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 229, 349
+shop_dropdown 942, 117
+business_day_dropdown 1294, 116
+top_right_sheet 1270, 308
+sheet_menu 1290, 328
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to scrape three figures from the back office program for each office
+</notes>
+
+<subroutine_1>
+pause 0.1
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+67
+</total_loops>
+

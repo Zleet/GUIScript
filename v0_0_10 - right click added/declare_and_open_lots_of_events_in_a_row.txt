@@ -1,0 +1,48 @@
+<pre_loop>
+
+</pre_loop>
+
+<main_loop>
+pause 2
+click actions_dd
+pause 1
+click declare_and_open
+pause 1
+click next
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+actions_dd 886, 42
+declare_and_open 971, 179
+next 1343, 70
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to declare and open lots of events in a row.
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+5
+</total_loops>
+

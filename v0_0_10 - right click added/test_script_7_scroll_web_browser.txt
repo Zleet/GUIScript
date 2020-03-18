@@ -1,0 +1,41 @@
+<pre_loop>
+click web_browser
+</pre_loop>
+
+<main_loop>
+press down
+pause 0.5
+</main_loop>
+
+<post_loop>
+press up
+</post_loop>
+
+<click_locations>
+web_browser 3040,344
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Test script written on Monday 17th July 2017
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+10
+</total_loops>
+

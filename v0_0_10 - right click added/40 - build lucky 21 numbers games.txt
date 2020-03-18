@@ -1,0 +1,196 @@
+<pre_loop>
+click notepad
+pause 1
+click notepad
+pause 1
+</pre_loop>
+
+<main_loop>
+click new_top_event
+pause 1
+click actual_start
+pause 1
+
+# enter month
+press right
+pause 1
+press right
+pause 1
+type data
+pause 1
+data increment
+
+# enter day
+press left
+pause 1
+type data
+pause 1
+
+# enter year
+press right
+pause 1
+press right
+pause 1
+type 2019
+
+# enter hour
+press right
+data increment
+pause 1
+type data
+
+# enter minute
+press right
+data increment
+pause 1
+type data
+pause 1
+
+click save
+pause 1
+data increment
+click name_box
+pause 1
+type data
+pause 1
+data increment
+press space
+pause 1
+click save
+pause 2
+
+# build submarket
+click new_market
+pause 1
+click market_type
+pause 1
+press down
+pause 1
+press enter
+
+click off_time
+pause 1
+click ew_dropdown
+pause 1
+press up
+pause 1
+press enter
+pause 1
+click save
+pause 2
+
+click top_level_market
+pause 3
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+new_top_event 1624, 94
+actual_start 1300, 305
+save 1452, 94
+name_box 1293, 207
+new_market 1787, 96
+market_type 1565, 178
+off_time 1519, 295
+ew_dropdown 1341, 472
+top_level_market 962, 222
+</click_locations>
+
+<data>
+11     	# month
+20   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+11     	# month
+23   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+11     	# month
+27   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+11     	# month
+30   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+04   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+07   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+11   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+14   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+18   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+21   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+25   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+12     	# month
+28   	# day
+19     	# hour
+45     	# minute
+Lucky Numbers 18 # top market title
+# =====================
+</data>
+
+<notes>
+Script to build Numbers Irish
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+12
+</total_loops>
+

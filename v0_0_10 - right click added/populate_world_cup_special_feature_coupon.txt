@@ -1,0 +1,163 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+</pre_loop>
+
+<main_loop>
+# populate match betting
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate match handicap
+click match_handicap
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate goal rush plus
+click goal_rush_plus
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate total goals plus
+click total_goals_plus
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate total booking points
+click booking_points
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# scroll down
+pause 1
+click scroll_down
+pause 1
+click scroll_down
+pause 1
+
+# populate total corners
+click total_corners
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate corner handicap
+click corner_hcap
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate alt handicap 1
+click alt_hcap_1
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+
+# populate alt handicap 2
+click alt_hcap_2
+pause 1
+click select_all
+pause 1
+click set_data
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 100, 100
+select_all 1073, 763
+set_data 1079, 707
+match_handicap 1384, 405
+goal_rush_plus 1524, 404
+total_goals_plus 1666, 408
+booking_points 1803, 400
+scroll_down 1893, 909
+total_corners 1255, 835
+corner_hcap 1439, 836
+alt_hcap_1 1617, 835
+alt_hcap_2 1797, 838
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to populate a world cup special feature coupon
+</notes>
+
+<subroutine_1>
+pause 0.5
+click select_all
+pause 0.5
+click set_data
+</subroutine_1>
+
+<subroutine_2>
+pause 0.5
+click select_all
+pause 0.5
+click third_data_item
+pause 0.5
+click set_data
+</subroutine_2>
+
+<subroutine_3>
+click unselect_all
+pause 0.5
+click first_data_item
+pause 0.5
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+press down
+press space
+click set_data
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+

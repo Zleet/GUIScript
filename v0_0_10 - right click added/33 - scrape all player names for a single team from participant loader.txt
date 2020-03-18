@@ -1,0 +1,65 @@
+<pre_loop>
+
+</pre_loop>
+
+<main_loop>
+click teletext_name
+sub1
+press control
+sub1
+type a
+sub1
+press control
+sub1
+type c
+sub1
+click name_textarea
+sub1
+press control
+sub1
+type v
+sub1
+click submit_name
+sub1
+click scroll_down
+sub1
+click top_player
+sub1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+teletext_name 1275, 218
+name_textarea 399, 192
+submit_name 370, 224
+scroll_down 1109, 773
+top_player 751, 768
+</click_locations>
+
+<data>
+
+</data>
+
+<notes>
+Script to scrape all player names for a single team from Participant Loader
+</notes>
+
+<subroutine_1>
+pause 1
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+100
+</total_loops>
+

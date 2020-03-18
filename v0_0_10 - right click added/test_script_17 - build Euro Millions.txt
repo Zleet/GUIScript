@@ -1,0 +1,135 @@
+<pre_loop>
+click notepad_window
+press down
+pause 1
+press up
+pause 1
+press down
+pause 1
+click notepad_window
+pause 1
+</pre_loop>
+
+<main_loop>
+click new_button
+pause 0.5
+click actual_start
+pause 0.5
+
+# enter day
+press right
+pause 0.5
+type data
+data increment
+pause 0.5
+
+# enter month
+press right
+pause 0.5
+type data
+data increment
+pause 0.5
+
+# enter hour
+press right
+pause 0.5
+press right
+pause 0.5
+type data
+data increment
+pause 0.5
+
+# enter minute
+press right
+pause 0.5
+type data
+data increment
+pause 0.5
+
+click save_button
+pause 1
+click new_sub_market
+pause 0.5
+click market_type
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press down
+pause 0.5
+press enter
+
+pause 1
+click off_time
+
+# fix name
+click name_text_box
+pause 0.5
+press control
+pause 0.5
+type a
+pause 0.5
+press delete
+pause 0.5
+type data
+data increment
+pause 0.5
+
+click ew_dropdown
+pause 0.5
+press up
+pause 0.5
+press enter
+pause 0.5
+click save_button
+pause 1
+</main_loop>
+
+<post_loop>
+
+</post_loop>
+
+<click_locations>
+notepad_window 320, 490
+new_button 1391, 62
+actual_start 1158, 267
+save_button 1234, 60
+new_sub_market 1547, 62
+market_type 1424, 147
+name_text_box 1198, 170
+off_time 1378, 262
+ew_dropdown 1196, 438
+</click_locations>
+
+<data>
+# ============================
+02     	      # day
+09     	      # month
+19           	# hour
+45     	      # minute
+Lucky 21s Sat # market title
+</data>
+
+<notes>
+Script to build Euro Millions
+</notes>
+
+<subroutine_1>
+
+</subroutine_1>
+
+<subroutine_2>
+
+</subroutine_2>
+
+<subroutine_3>
+
+</subroutine_3>
+
+<total_loops>
+1
+</total_loops>
+
